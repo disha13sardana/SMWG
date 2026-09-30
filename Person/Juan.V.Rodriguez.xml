@@ -5,11 +5,18 @@
     <ResourceID>spase://SMWG/Person/Juan.V.Rodriguez</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2013-05-24T00:00:00Z</ReleaseDate>
+    <ReleaseDate>2026-09-30T08:47:14Z</ReleaseDate>
     <PersonName>Juan V. Rodriguez</PersonName>
-    <OrganizationName>CIRES/SWPC</OrganizationName>
+    <OrganizationName>Ball Corporation</OrganizationName>
     <Address>Space Weather Prediction Center, W/NP9 325 Broadway, Boulder CO 80305</Address>
     <Email>Juan.Rodriguez@noaa.gov</Email>
     <PhoneNumber>303-497-4604</PhoneNumber>
+    <ORCIdentifier>0000-0002-6847-4136</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'CIRES/SWPC'. The address, phone number and email address in this record relate to that previous organization.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0002-6847-4136). This affiliation was held while the mission was operating.
+        </Note>
+    <RORIdentifier>02xstv633</RORIdentifier>
   </Person>
 </Spase>

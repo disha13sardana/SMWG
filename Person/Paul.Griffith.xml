@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Paul.Griffith</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-09-30T08:47:14Z</ReleaseDate>
+    <PersonName>Paul Griffith</PersonName>
+    <OrganizationName>Harris Corporation</OrganizationName>
+    <ORCIdentifier>0000-0001-9729-1307</ORCIdentifier>
+    <Note>Affiliation as printed on the paper (Kalluri et al. 2018, https://doi.org/10.3390/rs10020177). This is the affiliation recorded at the time of publication.</Note>
+    <RORIdentifier>04qvpkd07</RORIdentifier>
+  </Person>
+</Spase>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Daniel.Lindsey</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-09-30T08:47:14Z</ReleaseDate>
+    <PersonName>Daniel Lindsey</PersonName>
+    <OrganizationName>National Oceanic and Atmospheric Administration, National Environmental Satellite, Data, and Information Service</OrganizationName>
+    <ORCIdentifier>0000-0002-0967-5683</ORCIdentifier>
+    <Note>Affiliation as printed on the paper (Cook et al. 2025, https://doi.org/10.1109/TGRS.2025.3585061). This is the affiliation recorded at the time of publication.</Note>
+    <RORIdentifier>007qwym43</RORIdentifier>
+  </Person>
+</Spase>

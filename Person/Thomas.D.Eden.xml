@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Thomas.D.Eden</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-09-30T08:47:14Z</ReleaseDate>
+    <PersonName>Thomas D. Eden</PersonName>
+    <OrganizationName>Laboratory for Atmospheric and Space Physics, University of Colorado Boulder</OrganizationName>
+    <ORCIdentifier>0000-0002-5622-3479</ORCIdentifier>
+    <Note>Affiliation as printed on the paper (Woods et al. 2024, https://doi.org/10.1029/2024JA032925). This is the affiliation recorded at the time of publication.</Note>
+    <RORIdentifier>01fcjzv38</RORIdentifier>
+  </Person>
+</Spase>

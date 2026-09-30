@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/GOES/16</ResourceID>
@@ -8,7 +8,7 @@
       <AlternateName>Geostationary Operational Environmental Satellite 16</AlternateName>
       <AlternateName>2016-071A</AlternateName>
       <AlternateName>GOES R</AlternateName>
-      <ReleaseDate>2026-07-20T16:23:10Z</ReleaseDate>
+      <ReleaseDate>2026-09-30T08:47:14Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2019-06-29T12:34:56.789Z</ReleaseDate>
@@ -18,14 +18,186 @@
           <ReleaseDate>2026-07-20T16:23:10Z</ReleaseDate>
           <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
         </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-09-30T08:47:14Z</ReleaseDate>
+          <Note>Added mission Contacts with Author and qualifying roles derived from mission literature and instrument records; corrected schemaLocation to match the declared SPASE Version. Candidate and enrichment files: https://github.com/disha13sardana/spase-metadata-agents/tree/ec596f6/spase_records/GOES_16. DS</Note>
+        </RevisionEvent>
       </RevisionHistory>
       <Description>The Geostationary Operational Environmental Satellite-R Series, GOES-R, is the next Generation of Geostationary Weather Satellites. The GOES-R Series will significantly improve the Detection and Observation of environmental Phenomena that directly affect Public Safety, Protection of Property and our national economic Health and Prosperity. The Satellites will provide Advanced Imaging with increased Spatial Resolution and faster Coverage for more accurate Forecasts, real-time Mapping of Lightning Activity, and improved Monitoring of Solar Activity.
 
 The GOES-R Series is a four Satellite Program, GOES-R/S/T/U, that will extend the Availability of the operational GOES Satellite System through 2036. The NOAA GOES-R Series of Satellites is designed to improve the Forecasts of Weather, Ocean, and Environment by providing faster and more detailed Data, real-time Images of Lightning, and advanced Monitoring of Solar Activities and Space Weather. GOES 17 can collect three Times more Data at four times Image Resolution, and scan the Planet five times faster than previous Probes.</Description>
       <Acknowledgement>Please acknowledge the National Oceanic and Atmospheric Administration</Acknowledgement>
       <Contact>
-        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
-        <Role>GeneralContact</Role>
+        <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Listed as Principal Investigator of the GOES-16 magnetometer (MAG) in its SPASE Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/GOES/16/MAG.html)
+          * Author: Listed as Principal Investigator of the GOES-16 magnetometer (MAG) in its SPASE Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/GOES/16/MAG.html), and fourth author of the magnetometer description paper (Loto'aniu et al. 2019, https://doi.org/10.1007/s11214-019-0600-3)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Janet.L.Machol</PersonID>
+        <Role>InstrumentScientist</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentScientist: Listed as Instrument Scientist in the SPASE Instrument records for GOES-16 EXIS and its EUVS and XRS sensors (https://spase-metadata.org/NOAA/Instrument/GOES/16/EXIS.html)
+          * Author: First author of the EXIS chapter of the GOES-R Series reference volume, which describes the EXIS instrument suite (Machol et al. 2020, https://doi.org/10.1016/B978-0-12-814327-8.00019-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Steven.J.Goodman</PersonID>
+        <Role>Author</Role>
+        <Role>ProgramScientist</Role>
+        <Note>
+          * Author: Sole author of the introduction chapter (Goodman 2020, https://doi.org/10.1016/B978-0-12-814327-8.00001-9) and first author of the summary chapter (Goodman et al. 2020, https://doi.org/10.1016/B978-0-12-814327-8.00023-8) of the GOES-R Series reference volume, which he edited as first editor; also first author of the Geostationary Lightning Mapper (GLM) instrument description paper (Goodman et al. 2013, https://doi.org/10.1016/j.atmosres.2013.01.006)
+          * ProgramScientist: Identified as GOES-R Program Chief Scientist, NOAA/NESDIS, on the title slide of his April 2015 GOES-R overview presentation to the Space Weather Workshop (https://www.spaceweather.gov/sites/default/files/images/u33/Goodman_GOES-R%20Overview%20for%20Space%20WX%20Workshop-%20April%202015.pdf)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Timothy.J.Schmit</PersonID>
+        <Role>Author</Role>
+        <Note>Second editor of the GOES-R Series reference volume and second author of its summary chapter (Goodman et al. 2020, https://doi.org/10.1016/B978-0-12-814327-8.00023-8); first author of the Advanced Baseline Imager (ABI) instrument description paper (Schmit et al. 2017, https://doi.org/10.1175/BAMS-D-15-00230.1)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jaime.M.Daniels</PersonID>
+        <Role>Author</Role>
+        <Note>Third editor of the GOES-R Series reference volume (Goodman et al. 2020, ISBN 978-0-12-814327-8) and third author of its summary chapter (Goodman et al. 2020, https://doi.org/10.1016/B978-0-12-814327-8.00023-8); no single multi-author, peer-reviewed GOES-R mission overview paper exists, so the leading authors of each available overview are recorded</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.J.Redmon</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the GOES-16 magnetometer instrument description paper (Loto'aniu et al. 2019, https://doi.org/10.1007/s11214-019-0600-3); also fourth editor of the GOES-R Series reference volume (Goodman et al. 2020, ISBN 978-0-12-814327-8)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Pamela.C.Sullivan</PersonID>
+        <Role>Author</Role>
+        <Note>Sole author of the spacecraft-and-instruments chapter of the GOES-R Series reference volume (Sullivan 2020, https://doi.org/10.1016/B978-0-12-814327-8.00003-2) and first author of a 2017 GOES-R space segment overview presented at the EUMETSAT Meteorological Satellite Conference (Sullivan et al. 2017, NASA NTRS 20170009466); no single multi-author, peer-reviewed GOES-R mission overview paper exists, so the leading authors of each available overview are recorded</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Alexander.Krimchansky</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of a 2017 overview of the GOES-R space segment design and development presented at the EUMETSAT Meteorological Satellite Conference (Sullivan et al. 2017, NASA NTRS 20170009466); no single multi-author, peer-reviewed GOES-R mission overview paper exists, so the leading authors of each available overview are recorded</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Timothy.J.Walsh</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of a 2017 overview of the GOES-R space segment design and development presented at the EUMETSAT Meteorological Satellite Conference (Sullivan et al. 2017, NASA NTRS 20170009466); no single multi-author, peer-reviewed GOES-R mission overview paper exists, so the leading authors of each available overview are recorded</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Paul.Griffith</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the Advanced Baseline Imager (ABI) instrument description paper (Schmit et al. 2017, https://doi.org/10.1175/BAMS-D-15-00230.1)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mathew.M.Gunshor</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the Advanced Baseline Imager (ABI) instrument description paper (Schmit et al. 2017, https://doi.org/10.1175/BAMS-D-15-00230.1)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Richard.J.Blakeslee</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the Geostationary Lightning Mapper (GLM) instrument description paper (Goodman et al. 2013, https://doi.org/10.1016/j.atmosres.2013.01.006)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/William.J.Koshak</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the Geostationary Lightning Mapper (GLM) instrument description paper (Goodman et al. 2013, https://doi.org/10.1016/j.atmosres.2013.01.006)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Francis.G.Eparvier</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the EXIS instrument-suite chapter (Machol et al. 2020, https://doi.org/10.1016/B978-0-12-814327-8.00019-6) and first author of the EUVS sensor description paper (Eparvier et al. 2009, https://doi.org/10.1117/12.826445); also third author of both XRS design papers (Chamberlin et al. 2009, https://doi.org/10.1117/12.826807) and (Woods et al. 2024, https://doi.org/10.1029/2024JA032925)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Rodney.Viereck</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the EXIS instrument-suite chapter of the GOES-R Series reference volume (Machol et al. 2020, https://doi.org/10.1016/B978-0-12-814327-8.00019-6)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jonathan.Darnel</PersonID>
+        <Role>Author</Role>
+        <Note>First author of the Solar Ultraviolet Imager (SUVI) instrument description paper (Darnel et al. 2022, https://doi.org/10.1029/2022SW003044)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Daniel.B.Seaton</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the Solar Ultraviolet Imager (SUVI) instrument description paper (Darnel et al. 2022, https://doi.org/10.1029/2022SW003044)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Christian.Bethge</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the Solar Ultraviolet Imager (SUVI) instrument description paper (Darnel et al. 2022, https://doi.org/10.1029/2022SW003044)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Paul.T.M.Lotoaniu</PersonID>
+        <Role>Author</Role>
+        <Note>First author of the GOES-16 magnetometer (MAG) instrument description paper (Loto'aniu et al. 2019, https://doi.org/10.1007/s11214-019-0600-3)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Samuel.Califf</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the GOES-16 magnetometer (MAG) instrument description paper (Loto'aniu et al. 2019, https://doi.org/10.1007/s11214-019-0600-3)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Bronislaw.K.Dichter</PersonID>
+        <Role>Author</Role>
+        <Note>First author of the SEISS instrument-suite design and calibration paper (Dichter et al. 2015, https://doi.org/10.1109/TNS.2015.2477997); two suite-level descriptions of SEISS are cited by NOAA NCEI and neither is clearly authoritative, so the leading authors of both are recorded; see also (Kress et al. 2020, https://doi.org/10.1016/B978-0-12-814327-8.00020-2)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Gary.E.Galica</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the SEISS instrument-suite design and calibration paper (Dichter et al. 2015, https://doi.org/10.1109/TNS.2015.2477997); two suite-level descriptions of SEISS are cited by NOAA NCEI and neither is clearly authoritative, so the leading authors of both are recorded; see also (Kress et al. 2020, https://doi.org/10.1016/B978-0-12-814327-8.00020-2)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/John.O.McGarity</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the SEISS instrument-suite design and calibration paper (Dichter et al. 2015, https://doi.org/10.1109/TNS.2015.2477997); two suite-level descriptions of SEISS are cited by NOAA NCEI and neither is clearly authoritative, so the leading authors of both are recorded; see also (Kress et al. 2020, https://doi.org/10.1016/B978-0-12-814327-8.00020-2)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Brian.T.Kress</PersonID>
+        <Role>Author</Role>
+        <Note>First author of the SEISS chapter of the GOES-R Series reference volume (Kress et al. 2020, https://doi.org/10.1016/B978-0-12-814327-8.00020-2); two suite-level descriptions of SEISS are cited by NOAA NCEI and neither is clearly authoritative, so the leading authors of both are recorded; see also (Dichter et al. 2015, https://doi.org/10.1109/TNS.2015.2477997)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Juan.V.Rodriguez</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the SEISS chapter of the GOES-R Series reference volume (Kress et al. 2020, https://doi.org/10.1016/B978-0-12-814327-8.00020-2); two suite-level descriptions of SEISS are cited by NOAA NCEI and neither is clearly authoritative, so the leading authors of both are recorded; see also (Dichter et al. 2015, https://doi.org/10.1109/TNS.2015.2477997)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Terry.Onsager</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the SEISS chapter of the GOES-R Series reference volume (Kress et al. 2020, https://doi.org/10.1016/B978-0-12-814327-8.00020-2); two suite-level descriptions of SEISS are cited by NOAA NCEI and neither is clearly authoritative, so the leading authors of both are recorded; see also (Dichter et al. 2015, https://doi.org/10.1109/TNS.2015.2477997)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Thomas.N.Woods</PersonID>
+        <Role>Author</Role>
+        <Note>First author of the XRS design and pre-flight calibration paper (Woods et al. 2024, https://doi.org/10.1029/2024JA032925) and second author of the earlier XRS design paper (Chamberlin et al. 2009, https://doi.org/10.1117/12.826807); three credible XRS descriptions exist (the 2009 design paper, the 2024 design and pre-flight calibration paper, and the 2026 on-orbit calibration paper) and none is clearly authoritative, so the leading authors of each are recorded</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Phillip.C.Chamberlin</PersonID>
+        <Role>Author</Role>
+        <Note>First author of the original XRS design paper for the GOES-R series (Chamberlin et al. 2009, https://doi.org/10.1117/12.826807); three credible XRS descriptions exist (the 2009 design paper, the 2024 design and pre-flight calibration paper, and the 2026 on-orbit calibration paper) and none is clearly authoritative, so the leading authors of each are recorded</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Thomas.D.Eden</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the XRS design and pre-flight calibration paper (Woods et al. 2024, https://doi.org/10.1029/2024JA032925); three credible XRS descriptions exist (the 2009 design paper, the 2024 design and pre-flight calibration paper, and the 2026 on-orbit calibration paper) and none is clearly authoritative, so the leading authors of each are recorded</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stefan.M.Codrescu</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the XRS on-orbit measurements and calibrations paper (Machol et al. 2026, https://doi.org/10.1029/2026JA035181); three credible XRS descriptions exist (the 2009 design paper, the 2024 design and pre-flight calibration paper, and the 2026 on-orbit calibration paper) and none is clearly authoritative, so the leading authors of each are recorded</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Courtney.L.Peck</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the XRS on-orbit measurements and calibrations paper (Machol et al. 2026, https://doi.org/10.1029/2026JA035181); three credible XRS descriptions exist (the 2009 design paper, the 2024 design and pre-flight calibration paper, and the 2026 on-orbit calibration paper) and none is clearly authoritative, so the leading authors of each are recorded</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Daniel.Lindsey</PersonID>
+        <Role>ProgramScientist</Role>
+        <Note>Listed as GOES-R Program Scientist and GeoXO Deputy Program Scientist on the GOES-R Program team page (https://www.goes-r.gov/org/team.html)</Note>
       </Contact>
       <InformationURL>
         <Name>NSSDC Master Catalog</Name>
@@ -41,6 +213,51 @@ The GOES-R Series is a four Satellite Program, GOES-R/S/T/U, that will extend th
         <Name>HelioData</Name>
         <URL>https://helio.data.nasa.gov/mission/GOES_16</URL>
         <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>GOES-R Series mission web page</Name>
+        <URL>https://www.goes-r.gov/mission/mission.html</URL>
+        <Description>NOAA/NASA GOES-R Series mission overview page, covering GOES-16 through GOES-19.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>GOES-R Series instruments page</Name>
+        <URL>https://www.goes-r.gov/spacesegment/instruments.html</URL>
+        <Description>Payload listing for the GOES-R series: Earth-pointing, Sun-pointing and in-situ space environment instruments.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>GOES-R Program team page</Name>
+        <URL>https://www.goes-r.gov/org/team.html</URL>
+        <Description>NOAA/NASA GOES-R Program Office staff listing, including the GOES-R Program Scientist.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>GOES-R Series Data Book</Name>
+        <URL>https://www.goes-r.gov/downloads/resources/documents/GOES-RSeriesDataBook.pdf</URL>
+        <Description>Program reference document describing the GOES-R spacecraft, instruments, ground system and products.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>The GOES-R Series: A New Generation of Geostationary Environmental Satellites</Name>
+        <URL>https://shop.elsevier.com/books/the-goes-r-series/goodman/978-0-12-814327-8</URL>
+        <Description>Mission reference volume edited by Goodman, Schmit, Daniels and Redmon, with chapters on the spacecraft, each instrument and its products.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>GOES-R Series Introduction</Name>
+        <URL>https://doi.org/10.1016/B978-0-12-814327-8.00001-9</URL>
+        <Description>Introductory overview chapter of the GOES-R Series reference volume.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>GOES-R Series Spacecraft and Instruments</Name>
+        <URL>https://doi.org/10.1016/B978-0-12-814327-8.00003-2</URL>
+        <Description>Reference-volume chapter describing the GOES-R spacecraft and its six instruments.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>GOES-R Series Summary and Look Ahead</Name>
+        <URL>https://doi.org/10.1016/B978-0-12-814327-8.00023-8</URL>
+        <Description>Closing overview chapter of the GOES-R Series reference volume, written by its four editors.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>GOES-R space segment design and development overview (NTRS)</Name>
+        <URL>https://ntrs.nasa.gov/citations/20170009466</URL>
+        <Description>2017 EUMETSAT Meteorological Satellite Conference paper giving an overview of the GOES-R spacecraft and instrument suite.</Description>
       </InformationURL>
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/GOES</ObservatoryGroupID>

@@ -3,9 +3,18 @@
    <Version>2.7.2</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Janet.L.Machol</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2026-09-30T08:47:14Z</ReleaseDate>
       <PersonName>Janet L. Machol</PersonName>
-      <OrganizationName>NOAA National Centers for Environmental Information</OrganizationName>
+      <OrganizationName>Cooperative Institute for Research in Environmental Sciences, University of Colorado Boulder</OrganizationName>
       <Email>janet.machol@noaa.gov</Email>
       <ORCIdentifier>0000-0002-0344-0314</ORCIdentifier>
+      <Note>
+          Previously recorded in this record as 'NOAA National Centers for Environmental Information'. The email address in this record relates to that previous organization.
+
+          The organization name on display is as printed on the paper (Machol et al. 2026, https://doi.org/10.1029/2026JA035181). This is the affiliation recorded at the time of publication.
+        </Note>
+      <RORIdentifier>00bdqav06</RORIdentifier>
    </Person>
 </Spase>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/William.J.Koshak</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-09-30T08:47:14Z</ReleaseDate>
+    <PersonName>William J. Koshak</PersonName>
+    <OrganizationName>Earth Science Branch, ST11 NASA Marshall Space Flight Center</OrganizationName>
+    <ORCIdentifier>0000-0003-1263-4679</ORCIdentifier>
+    <Note>Affiliation as printed on the paper (Ringhausen et al. 2021, https://doi.org/10.1029/2021EA001861). This is the affiliation recorded at the time of publication.</Note>
+    <RORIdentifier>02epydz83</RORIdentifier>
+  </Person>
+</Spase>

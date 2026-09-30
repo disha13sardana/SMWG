@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Howard.J.Singer</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-09-30T08:47:14Z</ReleaseDate>
     <PersonName>Dr. Howard J. Singer</PersonName>
     <OrganizationName>NOAA Space Weather Prediction Center</OrganizationName>
     <Address>Space Weather Prediction Center, W/NP9 325 Broadway, Boulder CO 80305</Address>
     <Email>Howard.Singer@noaa.gov</Email>
     <PhoneNumber>303-497-6959</PhoneNumber>
+    <ORCIdentifier>0000-0002-5364-6505</ORCIdentifier>
+    <Note>Affiliation from the person's ORCID employment history (https://orcid.org/0000-0002-5364-6505). This is the person's current or most recent affiliation.</Note>
+    <RORIdentifier>01j6j9107</RORIdentifier>
   </Person>
 </Spase>

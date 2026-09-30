@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Jaime.M.Daniels</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-09-30T08:47:14Z</ReleaseDate>
+    <PersonName>Jaime M. Daniels</PersonName>
+    <OrganizationName>NOAA NESDIS Center for Satellite Applications and Research</OrganizationName>
+    <ORCIdentifier>0000-0002-9438-6631</ORCIdentifier>
+    <Note>Affiliation as printed on the paper (Ma et al. 2025, https://doi.org/10.3390/atmos16080979). This is the affiliation recorded at the time of publication.</Note>
+    <RORIdentifier>03yn06t56</RORIdentifier>
+  </Person>
+</Spase>

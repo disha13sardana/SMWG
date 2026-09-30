@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
-   <Version>2.7.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Jonathan.Darnel</ResourceID>
-      <OrganizationName>University of Colorado Boulder</OrganizationName>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2026-09-30T08:47:14Z</ReleaseDate>
+      <PersonName>Jonathan M. Darnel</PersonName>
+      <OrganizationName>Cooperative Institute for Research in Environmental Sciences, University of Colorado Boulder</OrganizationName>
       <Email>jonathan.darnel@noaa.gov</Email>
       <ORCIdentifier>0000-0001-6601-9116</ORCIdentifier>
+      <Note>
+          Previously recorded in this record as 'University of Colorado Boulder'. The email address in this record relates to that previous organization.
+
+          The organization name on display is as printed on the paper (Darnel et al. 2022, https://doi.org/10.1029/2022SW003044). This is the affiliation recorded at the time of publication.
+        </Note>
+      <RORIdentifier>00bdqav06</RORIdentifier>
    </Person>
 </Spase>

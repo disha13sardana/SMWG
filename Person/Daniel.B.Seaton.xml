@@ -1,12 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Daniel.B.Seaton</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2025-05-20T00:08:46Z</ReleaseDate>
-    <OrganizationName>Southwest Research Institute</OrganizationName>
+    <ReleaseDate>2026-09-30T08:47:14Z</ReleaseDate>
+    <PersonName>Daniel B. Seaton</PersonName>
+    <OrganizationName>CCOG, NOAA National Centers for Environmental Information</OrganizationName>
     <ORCIdentifier>0000-0002-0494-2025</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Southwest Research Institute'.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0002-0494-2025). This affiliation was held while the mission was operating.
+        </Note>
+    <RORIdentifier>04r0wrp59</RORIdentifier>
   </Person>
 </Spase>

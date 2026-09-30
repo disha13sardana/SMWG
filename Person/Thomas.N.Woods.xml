@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
-   <Version>2.7.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Thomas.N.Woods</ResourceID>
       <NamingAuthority>SMWG</NamingAuthority>
       <ResourceType>Person</ResourceType>
+      <ReleaseDate>2026-09-30T08:47:14Z</ReleaseDate>
       <PersonName>Thomas N. Woods</PersonName>
       <OrganizationName>Laboratory for Atmospheric and Space Physics, University of Colorado Boulder</OrganizationName>
       <Email>Tom.Woods@lasp.colorado.edu</Email>
       <PhoneNumber>+1-303-492-4224</PhoneNumber>
+      <ORCIdentifier>0000-0002-2308-6797</ORCIdentifier>
+      <Note>Affiliation as printed on the paper (Woods et al. 2024, https://doi.org/10.1029/2024JA032925). This is the affiliation recorded at the time of publication.</Note>
       <RORIdentifier>01fcjzv38</RORIdentifier>
    </Person>
 </Spase>
