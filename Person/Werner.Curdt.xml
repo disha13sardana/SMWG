@@ -1,12 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Werner.Curdt</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2024-05-31T00:08:46Z</ReleaseDate>
+    <ReleaseDate>2026-09-30T22:58:25Z</ReleaseDate>
     <PersonName>Werner Curdt</PersonName>
-    <OrganizationName>MPI für Solar System Research</OrganizationName>
+    <OrganizationName>Max-Planck-Institut für Sonnensystemforschung (MPS)</OrganizationName>
+    <ORCIdentifier>0000-0002-2860-9120</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'MPI für Solar System Research'.
+
+          The organization name on display is as printed on the paper (Curdt et al. 2022, https://doi.org/10.21203/rs.3.rs-2072725/v1). This is the affiliation recorded at the time of publication.
+        </Note>
+    <RORIdentifier>02j6gm739</RORIdentifier>
   </Person>
 </Spase>

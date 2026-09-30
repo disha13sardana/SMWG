@@ -5,9 +5,14 @@
     <ResourceID>spase://SMWG/Person/Karl.Battams</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2023-05-03T00:08:46Z</ReleaseDate>
+    <ReleaseDate>2026-09-30T22:58:25Z</ReleaseDate>
     <PersonName>Karl Battams</PersonName>
-    <OrganizationName>US Naval Research Laboratory</OrganizationName>
+    <OrganizationName>Interferometrics, Inc.</OrganizationName>
     <ORCIdentifier>0000-0002-8692-6925</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'US Naval Research Laboratory'.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0002-8692-6925). This affiliation was held while the mission was operating.
+        </Note>
   </Person>
 </Spase>

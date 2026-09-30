@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Claus.Frohlich</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-09-30T22:58:25Z</ReleaseDate>
     <PersonName>Dr. Claus Frohlich</PersonName>
-    <OrganizationName>Physikalisch-Meteorologisches Observatorium Dav</OrganizationName>
+    <OrganizationName>Physikalisch-Meteorologisches Observatorium Davos</OrganizationName>
+    <Note>
+          Previously recorded in this record as 'Physikalisch-Meteorologisches Observatorium Dav'.
+
+          The organization name on display is from the data provider's own documentation (https://umbra.nascom.nasa.gov/soho/sr13/soho_sr_2013_proposal.pdf).
+        </Note>
+    <RORIdentifier>02gtrqv93</RORIdentifier>
   </Person>
 </Spase>

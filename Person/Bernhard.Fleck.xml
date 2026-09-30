@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_0.xsd">
-   <Version>2.6.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Bernhard.Fleck</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2026-09-30T22:58:25Z</ReleaseDate>
       <PersonName>Dr. Bernhard Fleck</PersonName>
       <OrganizationName>European Space Agency</OrganizationName>
       <Email>bfleck@esa.nascom.nasa.gov</Email>
+      <ORCIdentifier>0000-0001-5777-9121</ORCIdentifier>
+      <Note>Affiliation from the data provider's own documentation (https://umbra.nascom.nasa.gov/soho/sr13/soho_sr_2013_proposal.pdf).</Note>
+      <RORIdentifier>03wd9za21</RORIdentifier>
    </Person>
 </Spase>

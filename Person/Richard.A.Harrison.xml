@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Richard.A.Harrison</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-09-30T22:58:25Z</ReleaseDate>
     <PersonName>Dr. Richard A. Harrison</PersonName>
-    <OrganizationName>Rutherford Appleton Laboratory</OrganizationName>
+    <OrganizationName>RAL Space</OrganizationName>
+    <ORCIdentifier>0000-0002-0843-8045</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Rutherford Appleton Laboratory'.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0002-0843-8045). This is the person's current or most recent affiliation.
+        </Note>
   </Person>
 </Spase>

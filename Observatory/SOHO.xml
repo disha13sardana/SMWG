@@ -9,7 +9,7 @@
       <ResourceName>SOHO</ResourceName>
       <AlternateName>1995-065A</AlternateName>
       <AlternateName>Solar and Heliospheric Observatory</AlternateName>
-      <ReleaseDate>2026-07-20T16:22:56Z</ReleaseDate>
+      <ReleaseDate>2026-09-30T22:58:25Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
@@ -22,6 +22,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-07-20T16:22:56Z</ReleaseDate>
           <Note>Added HelioData InformationURL. JWL</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-09-30T22:58:25Z</ReleaseDate>
+          <Note>Added mission Contacts with Author and qualifying roles derived from mission literature and instrument records; corrected schemaLocation to match the declared SPASE Version. Candidate and enrichment files: https://github.com/disha13sardana/spase-metadata-agents/tree/8d95aee/spase_records/SOHO. DS</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The primary scientific aims of the Solar and Heliospheric Observatory mission (SOHO) were to investigate: (1) the physical processes that form and heat the Sun's corona, maintain it and give rise to the expanding solar wind; and, (2) the interior structure of the Sun. Imaging and collection of spectroscopic plasma diagnostics of the solar chromosphere, transition region and corona, as well as in situ solar-wind measurements are used to study the corona and solar wind. Solar interior structure is investigated by helioseismological means and by the observation of variations in solar irradiance. SOHO was part of the International Solar-Terrestrial Physics Program (ISTP).
@@ -38,12 +42,345 @@ Contact with SOHO was lost at 23:16 GMT on June 24, 1998 during maintenance oper
 
 Attitude analysis led to the conclusion that SOHO went into a spin such that the solar panels were nearly edge-on towards the Sun, and thus did not generate any power. Because the spin axis is fixed in space, as the spacecraft progressed in its orbit the orientation of the panels with respect to the Sun gradually changed, resulting in increased solar illumination of the solar arrays as time progressed. On August 3, contact was re-established with SOHO following six weeks of silence. After a lengthy recovery process, on September 16 the spacecraft again locked onto the Sun, and experiment heaters were switched on. After recommissioning of various subsystems, and an orbit correction maneuver, SOHO was finally brought back to normal mode on 25 September at 19:52:58 GMT. Instrument switch-on started October 5, 1998, and by November 4 all instruments were back to normal.</Description>
       <Contact>
-        <PersonID>spase://SMWG/Person/Jack.Ireland</PersonID>
-        <Role>ProjectScientist</Role>
-      </Contact>
-      <Contact>
         <PersonID>spase://SMWG/Person/Bernhard.Fleck</PersonID>
         <Role>ProjectScientist</Role>
+        <Role>Author</Role>
+        <Note>
+          * ProjectScientist: Listed as a Project Scientist in the SOHO Observatory record's Contacts (https://spase-metadata.org/SMWG/Observatory/SOHO.html); ESA has named Daniel Müller as its SOHO Project Scientist since 2023, so this role may describe an earlier period
+          * Author: Second author of the SOHO mission overview paper (Domingo et al. 1995, https://doi.org/10.1007/BF00733425)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jack.Ireland</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>Author</Role>
+        <Note>
+          * ProjectScientist: Named 'SOHO project scientist at NASA's Goddard Space Flight Center' in NASA's December 2025 SOHO anniversary article (https://science.nasa.gov/science-research/heliophysics/nasa-esa-sun-observatory-marks-30-years/); also listed as Project Scientist in the SOHO Observatory record's Contacts (https://spase-metadata.org/SMWG/Observatory/SOHO.html)
+          * Author: NASA's SOHO project scientist at Goddard Space Flight Center, as named in NASA's December 2025 SOHO anniversary article (https://science.nasa.gov/science-research/heliophysics/nasa-esa-sun-observatory-marks-30-years/), and listed as a Project Scientist in the SOHO Observatory record's Contacts (https://spase-metadata.org/SMWG/Observatory/SOHO.html)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Daniel.Mueller</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>Author</Role>
+        <Note>
+          * ProjectScientist: ESA SOHO Project Scientist since 2023, and SOHO Deputy Project Scientist 2005–2010, per his ESA staff profile (https://www.cosmos.esa.int/web/personal-profiles/daniel-mueller)
+          * Author: ESA's SOHO Project Scientist since 2023, per his ESA staff profile (https://www.cosmos.esa.int/web/personal-profiles/daniel-mueller) and ESA's SOHO 30th-anniversary article (https://www.esa.int/Science_Exploration/Space_Science/SOHO/Sun-watcher_SOHO_celebrates_thirty_years); also first author of a 2025 retrospective on the mission (Müller et al. 2025, https://doi.org/10.1038/s41550-025-02687-4)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Joseph.B.Gurman</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>Author</Role>
+        <Note>
+          * ProjectScientist: Named 'US Project Scientist for SOHO' on the mission's March 2013 NASA Senior Review proposal (https://umbra.nascom.nasa.gov/soho/sr13/soho_sr_2013_proposal.pdf); NASA named Jack Ireland as SOHO project scientist in December 2025, so this describes an earlier period
+          * Author: US Project Scientist for SOHO, as named on the mission's March 2013 NASA Senior Review proposal (https://umbra.nascom.nasa.gov/soho/sr13/soho_sr_2013_proposal.pdf)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Richard.A.Harrison</PersonID>
+        <Role>FormerPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: FormerPI of the SOHO/CDS instrument: listed as its Principal Investigator in the SPASE CDS Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/CDS.html) and in the NSSDC Master Catalog CDS entry (https://web.archive.org/web/2025/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-065A-02), but the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html) now names Andrzej Fludra as the current CDS PI
+          * Author: First author of the CDS instrument description paper (Harrison et al. 1995, https://doi.org/10.1007/BF00733431)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Dieter.K.Hovestadt</PersonID>
+        <Role>FormerPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: FormerPI of the SOHO/CELIAS instrument: listed as its Principal Investigator in the NSSDC Master Catalog CELIAS entry (https://web.archive.org/web/2025/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-065A-07), but the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html) now names Robert F. Wimmer-Schweingruber as the current CELIAS PI (he is also the PI in the CELIAS SPASE Instrument record, https://spase-metadata.org/SMWG/Instrument/SOHO/CELIAS.html)
+          * Author: First author of the CELIAS instrument description paper (Hovestadt et al. 1995, https://doi.org/10.1007/BF00733436)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Horst.W.Kunow</PersonID>
+        <Role>FormerPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: FormerPI of the SOHO/COSTEP instrument: listed as its Principal Investigator in the NSSDC Master Catalog COSTEP entry (https://web.archive.org/web/2025/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-065A-08), but the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html) now names Bernd Heber as the current COSTEP PI (he is also the PI in the COSTEP SPASE Instrument record, https://spase-metadata.org/SMWG/Instrument/SOHO/COSTEP.html)
+          * Author: Second author of the COSTEP instrument description paper (Müller-Mellin et al. 1995, https://doi.org/10.1007/BF00733437)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jean-Pierre.Delaboudiniere</PersonID>
+        <Role>FormerPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: FormerPI of the SOHO/EIT instrument: listed as its Principal Investigator in the SPASE EIT Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/EIT.html) and in the NSSDC Master Catalog EIT entry (https://web.archive.org/web/2025/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-065A-03), but the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html) now names Frédéric Auchère as the current EIT PI
+          * Author: First author of the EIT instrument description paper (Delaboudinière et al. 1995, https://doi.org/10.1007/BF00733432)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jarmo.Torsti</PersonID>
+        <Role>FormerPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: FormerPI of the SOHO/ERNE instrument: listed as its Principal Investigator in the NSSDC Master Catalog ERNE entry (https://web.archive.org/web/2025/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-065A-09), but the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html) now names Rami Vainio as the current ERNE PI (he is also the PI in the ERNE SPASE Instrument record, https://spase-metadata.org/SMWG/Instrument/SOHO/ERNE.html)
+          * Author: First author of the ERNE instrument description paper (Torsti et al. 1995, https://doi.org/10.1007/BF00733438)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Alan-Henri.Gabriel</PersonID>
+        <Role>FormerPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: FormerPI of the SOHO/GOLF instrument: listed as its Principal Investigator in the SPASE GOLF Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/GOLF.html) and in the NSSDC Master Catalog GOLF entry (https://web.archive.org/web/2025/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-065A-10), but the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html) now names Patrick Boumier as the current GOLF PI
+          * Author: First author of the GOLF instrument description paper (Gabriel et al. 1995, https://doi.org/10.1007/BF00733427)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Guenter.E.Brueckner</PersonID>
+        <Role>FormerPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: FormerPI of the SOHO/LASCO instrument: named 'NRL's principal investigator for LASCO' in an ESA information note of 24 May 1996 (https://sci.esa.int/web/soho/-/36893-info-11-1996-comet-hyakutake-s-close-encounter-with-the-sun), but the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html) now names Karl Battams as the current LASCO PI
+          * Author: First author of the LASCO instrument description paper (Brueckner et al. 1995, https://doi.org/10.1007/BF00733434)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Russell.A.Howard</PersonID>
+        <Role>FormerPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: FormerPI of the SOHO/LASCO instrument: listed as its Principal Investigator in the SPASE LASCO Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/LASCO.html) and in the NSSDC Master Catalog LASCO entry (https://web.archive.org/web/2025/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-065A-05), but the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html) now names Karl Battams as the current LASCO PI
+          * Author: Principal Investigator of SOHO/LASCO, as listed in its SPASE Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/LASCO.html) and in the NSSDC Master Catalog LASCO entry (https://web.archive.org/web/2025/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-065A-05)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Klaus.Wilhelm</PersonID>
+        <Role>FormerPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: FormerPI of the SOHO/SUMER instrument: listed as its Principal Investigator in the SPASE SUMER Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/SUMER.html) and in the NSSDC Master Catalog SUMER entry (https://web.archive.org/web/2025/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-065A-01), but the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html) now names Werner Curdt as the current SUMER PI
+          * Author: First author of the SUMER instrument description paper (Wilhelm et al. 1995, https://doi.org/10.1007/BF00733430)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jean-Loup.C.Bertaux</PersonID>
+        <Role>FormerPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: FormerPI of the SOHO/SWAN instrument: listed as its Principal Investigator in the SPASE SWAN Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/SWAN.html) and in the NSSDC Master Catalog SWAN entry (https://web.archive.org/web/2025/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-065A-06), but the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html) now names Eric Quémerais as the current SWAN PI
+          * Author: First author of the SWAN instrument description paper (Bertaux et al. 1995, https://doi.org/10.1007/BF00733435)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/John.L.Kohl</PersonID>
+        <Role>FormerPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: FormerPI of the SOHO/UVCS instrument: listed as its Principal Investigator in the SPASE UVCS Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/UVCS.html) and in the NSSDC Master Catalog UVCS entry (https://web.archive.org/web/2025/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-065A-04), but the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html) now names Leonard Strachan as the current UVCS PI
+          * Author: First author of the UVCS instrument description paper (Kohl et al. 1995, https://doi.org/10.1007/BF00733433)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/J.Leonard.Culhane</PersonID>
+        <Role>FormerPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: FormerPI of the SOHO/UVCS instrument: listed as one of its Principal Investigators, alongside John L. Kohl, in the SPASE UVCS Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/UVCS.html) and in the NSSDC Master Catalog UVCS entry (https://web.archive.org/web/2025/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-065A-04), but the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html) now names Leonard Strachan as the current UVCS PI. He is not among the 40 authors of the UVCS description paper (Kohl et al. 1995, https://doi.org/10.1007/BF00733433), so this listing may be an NSSDC error carried into SPASE
+          * Author: Listed as a Principal Investigator of SOHO/UVCS, alongside John L. Kohl, in its SPASE Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/UVCS.html) and in the NSSDC Master Catalog UVCS entry (https://web.archive.org/web/2025/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-065A-04)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Claus.Frohlich</PersonID>
+        <Role>FormerPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: FormerPI of the SOHO/VIRGO instrument: listed as its Principal Investigator in the SPASE VIRGO Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/VIRGO.html) and in the NSSDC Master Catalog VIRGO entry (https://web.archive.org/web/2025/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-065A-11), but the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html) now names Wolfgang Finsterle as the current VIRGO PI
+          * Author: First author of the VIRGO instrument description paper (Fröhlich et al. 1995, https://doi.org/10.1007/BF00733428)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Andrzej.Fludra</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Listed as Principal Investigator of SOHO/CDS in the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html)
+          * Author: Current CDS Principal Investigator, as listed in the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.F.Wimmer-Schweingruber</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Listed as Principal Investigator of the SOHO/CELIAS instrument in its SPASE Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/CELIAS.html) and in the SOHO mission's current PI roster (https://sohowww.nascom.nasa.gov/about/people.html)
+          * Author: Principal Investigator of SOHO/CELIAS, as listed in its SPASE Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/CELIAS.html) and in the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Bernd.Heber</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Listed as Principal Investigator of the SOHO/COSTEP instrument in its SPASE Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/COSTEP.html) and in the SOHO mission's current PI roster (https://sohowww.nascom.nasa.gov/about/people.html)
+          * Author: Principal Investigator of SOHO/COSTEP, as listed in its SPASE Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/COSTEP.html) and in the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Frederic.Auchere</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Listed as Principal Investigator of SOHO/EIT in the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html)
+          * Author: Current EIT Principal Investigator, as listed in the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Rami.Vainio</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Listed as Principal Investigator of the SOHO/ERNE instrument in its SPASE Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/ERNE.html) and in the SOHO mission's current PI roster (https://sohowww.nascom.nasa.gov/about/people.html)
+          * Author: Principal Investigator of SOHO/ERNE, as listed in its SPASE Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/ERNE.html) and in the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Patrick.Boumier</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Listed as Principal Investigator of SOHO/GOLF in the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html)
+          * Author: Current GOLF Principal Investigator, as listed in the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Karl.Battams</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Listed as Principal Investigator of SOHO/LASCO in the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html)
+          * Author: Current LASCO Principal Investigator, as listed in the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Philip.H.Scherrer</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Listed as Principal Investigator of the SOHO/MDI instrument in its SPASE Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SOHO/MDI.html) and in the SOHO mission's current PI roster (https://sohowww.nascom.nasa.gov/about/people.html)
+          * Author: First author of the MDI instrument description paper, placed ahead of two alphabetized groups of co-authors (Scherrer et al. 1995, https://doi.org/10.1007/BF00733429)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Werner.Curdt</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Listed as Principal Investigator of SOHO/SUMER in the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html)
+          * Author: Second author of the SUMER instrument description paper (Wilhelm et al. 1995, https://doi.org/10.1007/BF00733430)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Eric.Quemerais</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Listed as Principal Investigator of SOHO/SWAN in the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html)
+          * Author: Third author of the SWAN instrument description paper (Bertaux et al. 1995, https://doi.org/10.1007/BF00733435)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Leonard.Strachan</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Listed as Principal Investigator of SOHO/UVCS in the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html)
+          * Author: Current UVCS Principal Investigator, as listed in the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Wolfgang.Finsterle</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Listed as Principal Investigator of SOHO/VIRGO in the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html)
+          * Author: Current VIRGO Principal Investigator, as listed in the 'SOHO PIs' roster on the SOHO mission's People page (https://sohowww.nascom.nasa.gov/about/people.html)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Vicente.Domingo</PersonID>
+        <Role>Author</Role>
+        <Note>First author of the SOHO mission overview paper (Domingo et al. 1995, https://doi.org/10.1007/BF00733425)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Arthur.I.Poland</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the SOHO mission overview paper (Domingo et al. 1995, https://doi.org/10.1007/BF00733425)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/E.C.Sawyer</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the CDS instrument description paper (Harrison et al. 1995, https://doi.org/10.1007/BF00733431)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/M.Hilchenbach</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the CELIAS instrument description paper (Hovestadt et al. 1995, https://doi.org/10.1007/BF00733436)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/A.Burgi</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the CELIAS instrument description paper (Hovestadt et al. 1995, https://doi.org/10.1007/BF00733436)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Reinhold.Mueller-Mellin</PersonID>
+        <Role>Author</Role>
+        <Note>First author of the COSTEP instrument description paper (Müller-Mellin et al. 1995, https://doi.org/10.1007/BF00733437)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Eino.Valtonen</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the ERNE instrument description paper (Torsti et al. 1995, https://doi.org/10.1007/BF00733438)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/M.Lumme</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the ERNE instrument description paper (Torsti et al. 1995, https://doi.org/10.1007/BF00733438)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/G.Grec</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the GOLF instrument description paper, among the six authors placed ahead of the alphabetized remainder of the author list (Gabriel et al. 1995, https://doi.org/10.1007/BF00733427)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/J.Charra</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the GOLF instrument description paper, among the six authors placed ahead of the alphabetized remainder of the author list (Gabriel et al. 1995, https://doi.org/10.1007/BF00733427)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/E.Marsch</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the SUMER instrument description paper (Wilhelm et al. 1995, https://doi.org/10.1007/BF00733430)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/E.Kyrola</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the SWAN instrument description paper (Bertaux et al. 1995, https://doi.org/10.1007/BF00733435)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/R.Esser</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the UVCS instrument description paper (Kohl et al. 1995, https://doi.org/10.1007/BF00733433)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/L.D.Gardner</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the UVCS instrument description paper (Kohl et al. 1995, https://doi.org/10.1007/BF00733433)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jose.Romero</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the VIRGO instrument description paper (Fröhlich et al. 1995, https://doi.org/10.1007/BF00733428)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Hansjorg.Roth</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the VIRGO instrument description paper (Fröhlich et al. 1995, https://doi.org/10.1007/BF00733428)</Note>
       </Contact>
       <InformationURL>
         <Name>SOHO Mission Home Page</Name>
@@ -58,6 +395,46 @@ Attitude analysis led to the conclusion that SOHO went into a spin such that the
         <Name>HelioData</Name>
         <URL>https://helio.data.nasa.gov/mission/SOHO</URL>
         <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>SOHO Instruments</Name>
+        <URL>https://sohowww.nascom.nasa.gov/about/instruments.html</URL>
+        <Description>SOHO payload list of the twelve instruments, with links to each instrument team's pages and home institutions.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>SOHO People</Name>
+        <URL>https://sohowww.nascom.nasa.gov/about/people.html</URL>
+        <Description>SOHO mission contact roster, including the current Principal Investigator of each instrument.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>ESA SOHO Mission Page</Name>
+        <URL>https://sci.esa.int/web/soho</URL>
+        <Description>ESA Science &amp; Technology portal page for SOHO, with mission facts and ESA news.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>The SOHO Mission: An Overview</Name>
+        <URL>https://doi.org/10.1007/BF00733425</URL>
+        <Description>SOHO mission overview paper (Domingo et al. 1995), Solar Physics 162, describing the mission's science goals, spacecraft, payload and operations.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>The SOHO Mission (reference volume)</Name>
+        <URL>https://doi.org/10.1007/978-94-009-0191-9</URL>
+        <Description>Book edition of the Solar Physics vol. 162 SOHO issue (Fleck, Domingo &amp; Poland, eds., 1995), collecting the mission overview and all twelve instrument description papers.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>SOHO Ground Segment, Science Operations, and Data Products</Name>
+        <URL>https://doi.org/10.1007/BF00733426</URL>
+        <Description>Chapter of the SOHO reference volume (St. Cyr et al. 1995) describing the ground segment, science operations and data products.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>SOHO's 30-year legacy of observing the Sun</Name>
+        <URL>https://doi.org/10.1038/s41550-025-02687-4</URL>
+        <Description>2025 Nature Astronomy retrospective on SOHO's first 30 years by the current mission project scientists and team (Müller et al. 2025).</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>SOHO 2013 Senior Review Proposal</Name>
+        <URL>https://umbra.nascom.nasa.gov/soho/sr13/soho_sr_2013_proposal.pdf</URL>
+        <Description>SOHO's 2013 proposal to NASA's Heliophysics Senior Review, with instrument status, mission archive plan and budget.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

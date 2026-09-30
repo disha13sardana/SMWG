@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.6.0.xsd">
-   <Version>2.6.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Patrick.Boumier</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2026-09-30T22:58:25Z</ReleaseDate>
       <PersonName>Patrick Boumier</PersonName>
       <OrganizationName>Institut d'Astrophysique Spatiale</OrganizationName>
+      <Note>Affiliation from the data provider's own documentation (https://umbra.nascom.nasa.gov/soho/sr13/soho_sr_2013_proposal.pdf).</Note>
+      <RORIdentifier>014p8mr66</RORIdentifier>
    </Person>
 </Spase>

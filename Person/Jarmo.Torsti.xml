@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Jarmo.Torsti</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-09-30T22:58:25Z</ReleaseDate>
     <PersonName>Dr. Jarmo Torsti</PersonName>
-    <OrganizationName>University of Turku</OrganizationName>
+    <OrganizationName>Space Research Laboratory, Department of Physics University of Turku  Turku Finland</OrganizationName>
+    <Note>
+          Previously recorded in this record as 'University of Turku'.
+
+          The organization name on display is as printed on the paper (Al‐Sawad et al. 2006, https://doi.org/10.1029/2005ja011362). This is the affiliation recorded at the time of publication.
+        </Note>
+    <RORIdentifier>05vghhr25</RORIdentifier>
   </Person>
 </Spase>

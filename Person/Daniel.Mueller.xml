@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
    <Version>2.7.1</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Daniel.Mueller</ResourceID>
       <NamingAuthority>SMWG</NamingAuthority>
       <ResourceType>Person</ResourceType>
-      <ReleaseDate>2026-05-27T09:02:09Z</ReleaseDate>
+      <ReleaseDate>2026-09-30T22:58:25Z</ReleaseDate>
       <PersonName>Daniel Mueller</PersonName>
-      <OrganizationName>European Space Agency: Paris, Île-de-France</OrganizationName>
+      <OrganizationName>Science Directorate (SCI-EP), European Space Agency</OrganizationName>
       <ORCIdentifier>0000-0001-9027-9954</ORCIdentifier>
+      <Note>
+          Previously recorded in this record as 'European Space Agency: Paris, Île-de-France'.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0001-9027-9954). This is the person's current or most recent affiliation.
+        </Note>
+      <RORIdentifier>03wd9za21</RORIdentifier>
    </Person>
 </Spase>

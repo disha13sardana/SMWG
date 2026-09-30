@@ -1,12 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Leonard.Strachan</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2024-05-31T00:08:46Z</ReleaseDate>
+    <ReleaseDate>2026-09-30T22:58:25Z</ReleaseDate>
     <PersonName>Leonard Strachan</PersonName>
-    <OrganizationName>Naval Research Laboratory</OrganizationName>
+    <OrganizationName>Solar, Stellar and Planetary Science, Smithsonian Astrophysical Observatory</OrganizationName>
+    <ORCIdentifier>0000-0002-5425-7122</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Naval Research Laboratory'.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0002-5425-7122). This affiliation was held while the mission was operating.
+        </Note>
+    <RORIdentifier>04mh52z70</RORIdentifier>
   </Person>
 </Spase>

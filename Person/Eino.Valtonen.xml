@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Eino.Valtonen</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-09-30T22:58:25Z</ReleaseDate>
+    <PersonName>Eino Valtonen</PersonName>
+    <OrganizationName>Department of Physics and Astronomy, University of Turku</OrganizationName>
+    <ORCIdentifier>0000-0002-9793-4883</ORCIdentifier>
+    <Note>Affiliation from the person's ORCID employment history (https://orcid.org/0000-0002-9793-4883). This is the person's current or most recent affiliation.</Note>
+    <RORIdentifier>05vghhr25</RORIdentifier>
+  </Person>
+</Spase>

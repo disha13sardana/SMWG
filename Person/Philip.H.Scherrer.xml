@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Philip.H.Scherrer</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-09-30T22:58:25Z</ReleaseDate>
     <PersonName>Dr. Philip H. Scherrer</PersonName>
-    <OrganizationName>Stanford University</OrganizationName>
+    <OrganizationName>Physics, Stanford University</OrganizationName>
     <Email>pscherrer@spd.aas.org</Email>
+    <ORCIdentifier>0000-0002-6937-6968</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Stanford University'. The email address in this record relates to that previous organization.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0002-6937-6968). This is the person's current or most recent affiliation.
+        </Note>
+    <RORIdentifier>00f54p054</RORIdentifier>
   </Person>
 </Spase>
