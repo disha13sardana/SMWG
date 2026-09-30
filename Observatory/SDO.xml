@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/SDO</ResourceID>
     <ResourceHeader>
       <ResourceName>SDO</ResourceName>
       <AlternateName>Solar Dynamics Observatory</AlternateName>
-      <ReleaseDate>2026-07-20T16:22:55Z</ReleaseDate>
+      <ReleaseDate>2026-09-30T20:42:44Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
@@ -16,6 +16,10 @@
           <ReleaseDate>2026-07-20T16:22:55Z</ReleaseDate>
           <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
         </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-09-30T20:42:44Z</ReleaseDate>
+          <Note>Added mission Contacts with Author and qualifying roles derived from mission literature and instrument records; corrected schemaLocation to match the declared SPASE Version. Candidate and enrichment files: https://github.com/disha13sardana/spase-metadata-agents/tree/cb7efa4/spase_records/SDO. DS</Note>
+        </RevisionEvent>
       </RevisionHistory>
       <Description>SDO (Solar Dynamics Observatory) is the first in a series of missions in the Living With a Star program. The spacecraft is three-axis-stabilized, sun-pointing, in an inclined (28 degree) geosynchronous orbit. The mission's primary goal is to understand and, ideally, predict the solar variations that influence life on Earth and humanity's technological systems. SDO will do this by determining how the Sun's magnetic field is generated and structured and how this stored magnetic energy is converted and released into the heliosphere and geospace in the form of solar wind, energetic particles, and variations in the solar brightness.
 The spacecraft carries three instruments: the Atmospheric Imaging Assembly (AIA), the Extreme Ultraviolet Variability Experiment (EVE), and the Helioseismic and Magnetic Imager (HMI). AIA images the dynamic solar atmosphere in multiple wavelengths to link changes in the surface to those in the interior. EVE measures the solar extreme ultraviolet irradiance variations based on the sun's magnetic features. It helps scientists to understand the Sun's role in driving the outer atmosphere of Earth. HMI studies the origin of solar variability by characterizing and developing an understanding of the sun's interior and the various components of its magnetic activity. It extends the capabilities of the SOHO/MDI instrument to continuous full-disk coverage at higher spatial resolution and vector magnetograms.
@@ -24,6 +28,118 @@ The combined data rate is about 130 Mbit/s (150 Mbit/s with overhead, or 300 Msy
       <Contact>
         <PersonID>spase://SMWG/Person/W.Dean.Pesnell</PersonID>
         <Role>ProjectScientist</Role>
+        <Role>Author</Role>
+        <Note>
+          * ProjectScientist: SDO Project Scientist, listed in the SDO Observatory record Contacts (https://spase-metadata.org/SMWG/Observatory/SDO.html), on the SDO contact page (http://web.archive.org/web/20250616051311/https://sdo.gsfc.nasa.gov/mission/contact.php) and on the front page of the SDO Senior Review proposals of 2015, 2017 and 2020 (http://hmi.stanford.edu/papers/SDO_SR_2020_assembled_3.pdf)
+          * Author: First author of the SDO mission overview paper (Pesnell et al. 2012, https://doi.org/10.1007/s11207-011-9841-3)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mark.C.M.Cheung</PersonID>
+        <Role>FormerPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: Former Principal Investigator of SDO/AIA, listed as FormerPI in the AIA Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SDO/AIA.html); named AIA PI in the 2017 and 2020 SDO Senior Review proposals and on the SDO team page (http://web.archive.org/web/20250616051309/https://sdo.gsfc.nasa.gov/mission/team.php)
+          * Author: AIA Principal Investigator and co-author of the SDO Senior Review proposals of 2017 and 2020 (http://hmi.stanford.edu/papers/SDO_SR_2020_assembled_3.pdf)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Karel.Schrijver</PersonID>
+        <Role>FormerPI</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: Former Principal Investigator of SDO/AIA, listed as FormerPI in the AIA Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SDO/AIA.html) and named AIA PI in the SDO 2015 Senior Review proposal (http://hmi.stanford.edu/papers/SDO_SR_Final_2015.pdf)
+          * CoInvestigator: Co-Investigator on the SDO/HMI instrument, listed on the HMI Science Team page (http://hmi.stanford.edu/ScienceTeam/index.html)
+          * Author: AIA Principal Investigator and co-author of the SDO 2015 Senior Review proposal (http://hmi.stanford.edu/papers/SDO_SR_Final_2015.pdf)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Alan.M.Title</PersonID>
+        <Role>FormerPI</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: Former Principal Investigator of SDO/AIA (the founding PI), listed as FormerPI in the AIA Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SDO/AIA.html) and as AIA Principal Investigator of the SDO pre-launch team (http://web.archive.org/web/20250616051309/https://sdo.gsfc.nasa.gov/mission/team.php)
+          * CoInvestigator: Co-Investigator on the SDO/HMI instrument, listed on the HMI Science Team page (http://hmi.stanford.edu/ScienceTeam/index.html)
+          * Author: Second author of the AIA instrument paper, one of the two authors placed before the alphabetized remainder of the author list (Lemen et al. 2012, https://doi.org/10.1007/s11207-011-9776-8)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Philip.H.Scherrer</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Principal Investigator of SDO/HMI, listed as such in the HMI Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SDO/HMI.html) and on the SDO instruments page (https://sdo.gsfc.nasa.gov/mission/instruments.php)
+          * Author: First author of the HMI investigation paper (Scherrer et al. 2012, https://doi.org/10.1007/s11207-011-9834-2) and second author of the HMI instrument design and calibration paper (Schou et al. 2012, https://doi.org/10.1007/s11207-011-9842-2); co-author of the SDO Senior Review proposals of 2015, 2017 and 2020 (http://hmi.stanford.edu/papers/SDO_SR_2020_assembled_3.pdf)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Thomas.N.Woods</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Principal Investigator of SDO/EVE, listed as such in the EVE Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SDO/EVE.html) and on the EVE personnel page (https://lasp.colorado.edu/eve/reference/personnel/)
+          * Author: First author of the EVE instrument paper (Woods et al. 2012, https://doi.org/10.1007/s11207-009-9487-6); co-author of the SDO Senior Review proposals of 2015, 2017 and 2020 (http://hmi.stanford.edu/papers/SDO_SR_2020_assembled_3.pdf)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Meng.Jin</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Principal Investigator of SDO/AIA since 2022, per the AIA Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SDO/AIA.html) and his LMSAL homepage (https://www.lmsal.com/~jinmeng/)
+          * Author: Current Principal Investigator of SDO/AIA, listed as PI in the AIA Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/SDO/AIA.html) and on his LMSAL homepage (https://www.lmsal.com/~jinmeng/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Francis.G.Eparvier</PersonID>
+        <Role>InstrumentScientist</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentScientist: EVE Project Scientist (the EVE instrument's project scientist, not SDO's), on the EVE personnel page (https://lasp.colorado.edu/eve/reference/personnel/) and the front page of the EVE CMAD (Eparvier 2005, EVE-T-11003 Rev. A)
+          * Author: Second author of the EVE instrument paper (Woods et al. 2012, https://doi.org/10.1007/s11207-009-9487-6) and author of the pre-launch EVE Calibration and Measurement Algorithms Document (Eparvier 2005, EVE-T-11003 Rev. A)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jesper.Schou</PersonID>
+        <Role>InstrumentScientist</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentScientist: HMI Instrument Scientist during instrument development, listed on the HMI Science Team page (http://hmi.stanford.edu/ScienceTeam/index.html)
+          * CoInvestigator: Co-Investigator on the SDO/HMI instrument, listed on the HMI Science Team page (http://hmi.stanford.edu/ScienceTeam/index.html)
+          * Author: First author of the HMI instrument design and calibration paper (Schou et al. 2012, https://doi.org/10.1007/s11207-011-9842-2) and second author of the HMI investigation paper (Scherrer et al. 2012, https://doi.org/10.1007/s11207-011-9834-2)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/R.Bush</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Co-Investigator on the SDO/HMI instrument, listed on the HMI Science Team page (http://hmi.stanford.edu/ScienceTeam/index.html)
+          * Author: Third author of both HMI description papers (Schou et al. 2012, https://doi.org/10.1007/s11207-011-9842-2) and (Scherrer et al. 2012, https://doi.org/10.1007/s11207-011-9834-2)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Barbara.J.Thompson</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the SDO mission overview paper (Pesnell et al. 2012, https://doi.org/10.1007/s11207-011-9841-3)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Phillip.C.Chamberlin</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the SDO mission overview paper (Pesnell et al. 2012, https://doi.org/10.1007/s11207-011-9841-3)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.R.Lemen</PersonID>
+        <Role>Author</Role>
+        <Note>First author of the AIA instrument paper (Lemen et al. 2012, https://doi.org/10.1007/s11207-011-9776-8)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Rachel.A.Hock</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the EVE instrument paper (Woods et al. 2012, https://doi.org/10.1007/s11207-009-9487-6)</Note>
       </Contact>
       <InformationURL>
         <Name>SDO web page at NASA/GSFC</Name>
@@ -33,6 +149,31 @@ The combined data rate is about 130 Mbit/s (150 Mbit/s with overhead, or 300 Msy
         <Name>HelioData</Name>
         <URL>https://helio.data.nasa.gov/mission/SDO</URL>
         <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>SDO instruments page</Name>
+        <URL>https://sdo.gsfc.nasa.gov/mission/instruments.php</URL>
+        <Description>NASA/GSFC SDO page describing the three instruments (AIA, EVE, HMI), their lead institutions and principal investigators.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>SDO definitive publications</Name>
+        <URL>https://sdo.gsfc.nasa.gov/mission/definitive-publications.php</URL>
+        <Description>The SDO project's list of reference papers for the mission and for each instrument.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>The Solar Dynamics Observatory (SDO)</Name>
+        <URL>https://doi.org/10.1007/s11207-011-9841-3</URL>
+        <Description>SDO mission overview paper in the Solar Physics SDO issue (Pesnell, Thompson &amp; Chamberlin 2012).</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>The Solar Dynamics Observatory (book)</Name>
+        <URL>https://doi.org/10.1007/978-1-4614-3673-7</URL>
+        <Description>Edited reference volume collecting the SDO mission and instrument description papers (Chamberlin, Pesnell &amp; Thompson, eds., 2012).</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>SDO 2020 Senior Review proposal</Name>
+        <URL>http://hmi.stanford.edu/papers/SDO_SR_2020_assembled_3.pdf</URL>
+        <Description>The SDO mission's 2020 extended-mission proposal to NASA's Heliophysics Senior Review, naming the Project Scientist and the AIA, EVE and HMI principal investigators.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

@@ -1,12 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Meng.Jin</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2023-10-01T00:08:46Z</ReleaseDate>
-    <OrganizationName>Lockheed Martin Solar and Astrophysics Laboratory</OrganizationName>
+    <ReleaseDate>2026-09-30T20:42:44Z</ReleaseDate>
+    <PersonName>Meng Jin</PersonName>
+    <OrganizationName>Lockheed Martin Advanced Technology Center</OrganizationName>
     <ORCIdentifier>0000-0002-9672-3873</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Lockheed Martin Solar and Astrophysics Laboratory'.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0002-9672-3873). This is the person's current or most recent affiliation.
+        </Note>
+    <RORIdentifier>026er9r08</RORIdentifier>
   </Person>
 </Spase>

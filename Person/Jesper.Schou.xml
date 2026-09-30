@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Jesper.Schou</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-09-30T20:42:44Z</ReleaseDate>
+    <PersonName>Jesper Schou</PersonName>
+    <OrganizationName>Max-Planck-Institut für Sonnensystemforschung</OrganizationName>
+    <ORCIdentifier>0000-0002-2391-6156</ORCIdentifier>
+    <Note>Affiliation as printed on the paper (Calchetti et al. 2026, https://doi.org/10.1051/0004-6361/202556836). This is the affiliation recorded at the time of publication.</Note>
+    <RORIdentifier>02j6gm739</RORIdentifier>
+  </Person>
+</Spase>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Francis.G.Eparvier</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-09-30T20:42:44Z</ReleaseDate>
+    <PersonName>Francis G. Eparvier</PersonName>
+    <OrganizationName>LASP University of Colorado Boulder Boulder Colorado USA</OrganizationName>
+    <ORCIdentifier>0000-0001-7143-2730</ORCIdentifier>
+    <Note>Affiliation as printed on the paper (Sojka et al. 2014, https://doi.org/10.1002/2013ja019528). This is the affiliation recorded at the time of publication.</Note>
+    <RORIdentifier>01fcjzv38</RORIdentifier>
+  </Person>
+</Spase>

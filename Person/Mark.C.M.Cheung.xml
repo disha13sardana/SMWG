@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
-   <Version>2.6.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Mark.C.M.Cheung</ResourceID>
-      <OrganizationName>Stanford University</OrganizationName>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2026-09-30T20:42:44Z</ReleaseDate>
+      <PersonName>Mark C. M. Cheung</PersonName>
+      <OrganizationName>Solar &amp; Astrophysics Lab, Lockheed Martin Advanced Technology Center</OrganizationName>
       <ORCIdentifier>0000-0003-2110-9753</ORCIdentifier>
+      <Note>
+          Previously recorded in this record as 'Stanford University'.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0003-2110-9753). This affiliation was held while the mission was operating.
+        </Note>
+      <RORIdentifier>026er9r08</RORIdentifier>
    </Person>
 </Spase>
