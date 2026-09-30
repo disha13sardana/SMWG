@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
-   <Version>2.7.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Robert.E.Ergun</ResourceID>
       <NamingAuthority>SMWG</NamingAuthority>
       <ResourceType>Person</ResourceType>
-      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
+      <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
       <PersonName>Robert E. Ergun</PersonName>
-      <OrganizationName>Laboratory for Atmospheric and Space Physics, University of Colorado Boulder</OrganizationName>
+      <OrganizationName>LASP University of Colorado Boulder Boulder Colorado USA</OrganizationName>
       <Address>1234 Innovation Drive, Boulder, CO 80303</Address>
       <Email>bob.ergun@lasp.colorado.edu</Email>
       <ORCIdentifier>0000-0002-3096-8579</ORCIdentifier>
+      <Note>
+          Previously recorded in this record as 'Laboratory for Atmospheric and Space Physics, University of Colorado Boulder'. The address and email address in this record relate to that previous organization.
+
+          The organization name on display is as printed on the paper (Cattell et al. 2017, https://doi.org/10.1002/2017gl074895). This is the affiliation recorded at the time of publication.
+        </Note>
       <RORIdentifier>01fcjzv38</RORIdentifier>
    </Person>
 </Spase>

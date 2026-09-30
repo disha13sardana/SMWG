@@ -2,17 +2,14 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <Person>
-    <ResourceID>spase://SMWG/Person/Harald.Jeszenszky</ResourceID>
+    <ResourceID>spase://SMWG/Person/Kevin.Genestreti</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
     <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
-    <PersonName>Harald Jeszenszky</PersonName>
+    <PersonName>Kevin Genestreti</PersonName>
     <OrganizationName>Space Research Institute, Austrian Academy of Sciences</OrganizationName>
-    <Address>Österreichische Akademie der Wissenschaften, Schmiedlstraße 6, 8042 Graz, Austria</Address>
-    <Email>Harald.Jeszenszky@oeaw.ac.at</Email>
-    <PhoneNumber>+43 (316) 4120-533</PhoneNumber>
-    <ORCIdentifier>0009-0008-7477-0581</ORCIdentifier>
-    <Note>Affiliation from the person's ORCID employment history (https://orcid.org/0009-0008-7477-0581). This affiliation was held while the mission was operating.</Note>
+    <ORCIdentifier>0000-0001-6890-2973</ORCIdentifier>
+    <Note>Affiliation from the person's ORCID employment history (https://orcid.org/0000-0001-6890-2973). This affiliation was held while the mission was operating.</Note>
     <RORIdentifier>002w0jp71</RORIdentifier>
   </Person>
 </Spase>

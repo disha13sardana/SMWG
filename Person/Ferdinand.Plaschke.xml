@@ -5,12 +5,18 @@
     <ResourceID>spase://SMWG/Person/Ferdinand.Plaschke</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2023-03-01T12:34:56.789Z</ReleaseDate>
+    <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
     <PersonName>Ferdinand Plaschke</PersonName>
-    <OrganizationName>Institute of Geophysics and Extraterrestrial Physics, Electrical Engineering, Information Technology, Physics</OrganizationName>
+    <OrganizationName>Space Research Institute Austrian Academy of Sciences Graz Austria</OrganizationName>
     <Address>Technische Universität Braunschweig, Universitätsplatz 2, 38106 Braunschweig</Address>
     <Email>f.plaschke@tu-braunschweig.de</Email>
     <PhoneNumber>+49 (0)531-391-5215</PhoneNumber>
     <ORCIdentifier>0000-0002-5104-6282</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Institute of Geophysics and Extraterrestrial Physics, Electrical Engineering, Information Technology, Physics'. The address, phone number and email address in this record relate to that previous organization.
+
+          The organization name on display is as printed on the paper (Raptis et al. 2020, https://doi.org/10.1029/2019ja027754). This is the affiliation recorded at the time of publication.
+        </Note>
+    <RORIdentifier>002w0jp71</RORIdentifier>
   </Person>
 </Spase>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_4.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/MMS</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS</ResourceName>
-      <ReleaseDate>2026-07-20T16:22:49Z</ReleaseDate>
+      <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
@@ -15,11 +15,445 @@
           <ReleaseDate>2026-07-20T16:22:49Z</ReleaseDate>
           <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
         </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
+          <Note>Added mission Contacts with Author and qualifying roles derived from mission literature and instrument records; corrected schemaLocation to match the declared SPASE Version. Candidate and enrichment files: https://github.com/disha13sardana/spase-metadata-agents/tree/deec605/spase_records/MMS. DS</Note>
+        </RevisionEvent>
       </RevisionHistory>
       <Description>The Magnetospheric Multiscale (MMS) mission is a Solar Terrestrial Probes Program mission within NASA's Heliophysics Division. The MMS mission, consisting of four identically instrumented spacecraft, will use Earth's magnetosphere as a laboratory to study magnetic reconnection.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
         <Role>PrincipalInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * PrincipalInvestigator: Named MMS Principal Investigator for Science/Instrument Payload on the front page of the MMS CMAD, version 2.2 of May 2026 (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21); also listed as Principal Investigator in the MMS Observatory record Contacts (https://spase-metadata.org/SMWG/Observatory/MMS.html) and as MMS Science Principal Investigator since 2005 on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * Author: First author of the MMS mission overview paper (Burch et al. 2016, https://doi.org/10.1007/s11214-015-0164-9) and lead author of the MMS Calibration and Measurement Algorithms Document (CMAD) (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Thomas.E.Moore</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>FormerPI</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * ProjectScientist: Listed as MMS Project Scientist from mission Phase C to 2019 on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS); the pre-launch NASA Goddard MMS team page also names him Project Scientist (https://mms.gsfc.nasa.gov/team.html). Guan Le is the current Project Scientist.
+          * FormerPI: Former lead Co-I (instrument lead) of the MMS Fast Plasma Investigation (FPI) during mission Phases A-B, per the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) and the emeritus leadership list in the FPI chapter of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * Author: Second author of the MMS mission overview paper (Burch et al. 2016, https://doi.org/10.1007/s11214-015-0164-9); also second author of the FPI instrument paper (Pollock et al. 2016, https://doi.org/10.1007/s11214-016-0245-4)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Barbara.L.Giles</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>FormerPI</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * ProjectScientist: Listed as MMS Project Scientist, 2019-2023, on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * FormerPI: Former lead Co-I (instrument lead) of the MMS Fast Plasma Investigation (FPI), 2015-2020, per the emeritus leadership list in the FPI chapter of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21) and the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * CoInvestigator: Listed as Co-Investigator in the Contacts of the MMS FPI Instrument records (DES and DIS on all four spacecraft; e.g. https://spase-metadata.org/SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES.html) and among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * Author: Second author of the MMS CMAD, directly after the Principal Investigator and ahead of the alphabetized remainder of the author list (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21); fourth author of the MMS mission overview paper (Burch et al. 2016, https://doi.org/10.1007/s11214-015-0164-9)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Guan.Le</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * ProjectScientist: MMS Project Scientist per the front page of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), the MMS Science Data Center contacts (https://lasp.colorado.edu/mms/sdc/public/), the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) (since 2023) and the Contacts of the SPASE CMAD Document record (https://spase-metadata.org/NASA/Document/MMS/CMAD.html)
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * Author: Named MMS Project Scientist and signatory on the front page of the MMS CMAD, version 2.2 of May 2026, and listed on its author list (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Roy.B.Torbert</PersonID>
+        <Role>DeputyPI</Role>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * DeputyPI: Listed as MMS Science Deputy Principal Investigator, 2007-2022, on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * InstrumentLead: Lead Co-I of the MMS FIELDS instrument suite and of its Electron Drift Instrument (EDI), named on the FIELDS, EDI and fluxgate-searchcoil merged product chapter front pages of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), on the MMS Science Data Center FIELDS page (https://lasp.colorado.edu/mms/sdc/public/datasets/fields/) and on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * CoInvestigator: Listed as Co-Investigator in the Contacts of the MMS FIELDS Instrument records (ADP, DSP, EDI, FGM, SCM and SDP on all four spacecraft; e.g. https://spase-metadata.org/SMWG/Instrument/MMS/1/FIELDS/EDI.html) and among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * Author: Third author of the MMS mission overview paper (Burch et al. 2016, https://doi.org/10.1007/s11214-015-0164-9); first author of the FIELDS suite paper (Torbert et al. 2016, https://doi.org/10.1007/s11214-014-0109-8) and of the Electron Drift Instrument paper (Torbert et al. 2016, https://doi.org/10.1007/s11214-015-0182-7)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Kevin.Genestreti</PersonID>
+        <Role>DeputyPI</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * DeputyPI: MMS Science Deputy Principal Investigator since 2022, succeeding Roy Torbert, per the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) (FIELDS, since 2018)
+          * Author: Listed as MMS Science Deputy Principal Investigator (since 2022) in the leadership section of the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Craig.J.Pollock</PersonID>
+        <Role>FormerPI</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: Former lead Co-I (instrument lead) of the MMS Fast Plasma Investigation (FPI) during mission Phases C-D, per the FPI chapter of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21) and the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * Author: First author of the FPI instrument paper (Pollock et al. 2016, https://doi.org/10.1007/s11214-016-0245-4); on the author list of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/David.T.Young</PersonID>
+        <Role>FormerPI</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: Former lead Co-I (instrument lead) of the MMS Hot Plasma Composition Analyzer (HPCA) during mission Phases A-C, per the HPCA chapter of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21) and the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * Author: First author of the HPCA instrument paper (Young et al. 2016, https://doi.org/10.1007/s11214-014-0119-6); on the author list of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Barry.H.Mauk</PersonID>
+        <Role>FormerPI</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: Former lead Co-I (instrument lead) of the MMS Energetic Particle Detector (EPD) suite, 2003-2019, per the EPD chapter of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21) and the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * CoInvestigator: Listed as Co-Investigator in the Contacts of the MMS EIS Instrument records (all four spacecraft; e.g. https://spase-metadata.org/SMWG/Instrument/MMS/1/EnergeticParticleDetector/EIS.html) and among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * Author: First author of the EPD/EIS instrument paper (Mauk et al. 2016, https://doi.org/10.1007/s11214-014-0055-5) and second author of the FEEPS paper, one of two authors placed ahead of its alphabetized remainder (Blake et al. 2016, https://doi.org/10.1007/s11214-015-0163-x)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Klaus.M.Torkar</PersonID>
+        <Role>FormerPI</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: Former lead Co-I (instrument lead) of the MMS Active Spacecraft Potential Control (ASPOC) instrument: Phases A-D per the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS), and 2005-2009 per the emeritus leadership list in the ASPOC chapter of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), which also records that he is deceased
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) (ASPOC)
+          * Author: First author of the ASPOC instrument paper (Torkar et al. 2016, https://doi.org/10.1007/s11214-014-0049-3); on the author list of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+        <Role>FormerPI</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: Former lead Co-I (instrument lead) of the MMS Fluxgate Magnetometers (FGM), 2005-2023 per the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) and 2015-2023 per the emeritus leadership list in the FGM chapter of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * Author: Second author of the FIELDS suite paper (Torbert et al. 2016, https://doi.org/10.1007/s11214-014-0109-8) and first author of the MMS magnetometer paper (Russell et al. 2016, https://doi.org/10.1007/s11214-014-0057-3)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stephen.A.Fuselier</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Lead Co-I of the Hot Plasma Composition Analyzer (HPCA) and of MMS orbit design, per the HPCA chapter of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), the MMS Science Data Center HPCA page (https://lasp.colorado.edu/mms/sdc/public/datasets/hpca/) and the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * CoInvestigator: Listed as Co-Investigator in the Contacts of the MMS HPCA Instrument records (all four spacecraft; e.g. https://spase-metadata.org/SMWG/Instrument/MMS/1/HotPlasmaCompositionAnalyzer.html) and among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * Author: Named HPCA Lead Co-I and signatory on the HPCA chapter front page of the MMS CMAD, version 2.2 of May 2026, and listed on the CMAD author list (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.E.Ergun</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Lead Co-I of the MMS Axial Double Probe (ADP) and of the mission's Burst Data System, and Burst Mode Lead in the MMS Science Working Group, per the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS); named ADP contact on the MMS Science Data Center FIELDS page (https://lasp.colorado.edu/mms/sdc/public/datasets/fields/)
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * Author: First author of the Axial Double Probe and FIELDS signal-processing paper (Ergun et al. 2016, https://doi.org/10.1007/s11214-014-0115-x); on the author list of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Daniel.J.Gershman</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Current lead Co-I of the MMS Fast Plasma Investigation (FPI; since 2020), per the FPI chapter of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), the MMS Science Data Center FPI page (https://lasp.colorado.edu/mms/sdc/public/datasets/fpi/) and the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) (FPI, since 2018)
+          * Author: Named FPI Lead Co-I and signatory on the FPI chapter front page of the MMS CMAD, version 2.2 of May 2026, and listed on the CMAD author list (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/J.Bernard.Blake</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Described in the MMS FEEPS Instrument record as the Co-I leading FEEPS development (https://spase-metadata.org/SMWG/Instrument/MMS/1/EnergeticParticleDetector/FEEPS.html); the 2026 CMAD names other FEEPS points of contact, so this may be a past role
+          * CoInvestigator: Listed as Co-Investigator in the Contacts of the MMS FEEPS Instrument records (all four spacecraft; https://spase-metadata.org/SMWG/Instrument/MMS/1/EnergeticParticleDetector/FEEPS.html) and among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) (EPD/FEEPS)
+          * Author: First author of the FEEPS instrument paper (Blake et al. 2016, https://doi.org/10.1007/s11214-015-0163-x) and second author of the EPD/EIS paper (Mauk et al. 2016, https://doi.org/10.1007/s11214-014-0055-5)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ian.J.Cohen</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Current lead Co-I of the MMS Energetic Particle Detector (EPD) suite (since 2019), per the EPD chapter of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), the MMS Science Data Center EPD page (https://lasp.colorado.edu/mms/sdc/public/datasets/epd/) and the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) (EPD, since 2018)
+          * Author: Named EPD Lead Co-I, EIS point of contact and signatory on the EPD chapter front page of the MMS CMAD, version 2.2 of May 2026, and listed on the CMAD author list (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Rumi.Nakamura</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Current lead Co-I of the MMS Active Spacecraft Potential Control (ASPOC) instrument (Phase E), per the ASPOC chapter of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), the MMS Science Data Center ASPOC page (https://lasp.colorado.edu/mms/sdc/public/datasets/aspoc/), the MMS ASPOC Instrument record description (https://spase-metadata.org/SMWG/Instrument/MMS/1/InstrumentControl/ASPOC.html) and the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * CoInvestigator: Listed as Co-Investigator in the Contacts of the MMS ASPOC Instrument records (all four spacecraft; https://spase-metadata.org/SMWG/Instrument/MMS/1/InstrumentControl/ASPOC.html) and among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * Author: Second author of the ASPOC instrument paper (Torkar et al. 2016, https://doi.org/10.1007/s11214-014-0049-3); named ASPOC Lead Co-I and signatory on the ASPOC chapter front page of the MMS CMAD, version 2.2 of May 2026 (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Hanying.Wei</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Current lead Co-I of the MMS Fluxgate Magnetometers (FGM; since 2023), per the FGM chapter of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21) and the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * Author: Named FGM Lead Co-I on the FGM chapter front page of the MMS CMAD, version 2.2 of May 2026, and listed on the CMAD author list (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Olivier.Le.Contel</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Lead Co-I of the MMS Search Coil Magnetometer (SCM), per the SCM chapter of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), the MMS Science Data Center FIELDS page (https://lasp.colorado.edu/mms/sdc/public/datasets/fields/) and the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * Author: First author of the search-coil magnetometer paper (Le Contel et al. 2016, https://doi.org/10.1007/s11214-014-0096-9); named SCM Lead Co-I on the SCM chapter front page of the MMS CMAD, version 2.2 of May 2026 (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Per-Arne.Lindqvist</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Lead Co-I of the MMS Spin-plane Double Probes (SDP) per the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS), and of the Electric Double Probes (EDP: SDP and ADP together) per the EDP chapter of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * Author: First author of the spin-plane double probe paper (Lindqvist et al. 2016, https://doi.org/10.1007/s11214-014-0116-9); named EDP Lead Co-I on the Electric Double Probes chapter front page of the MMS CMAD, version 2.2 of May 2026 (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Michael.Hesse</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Theory and Modeling Team Lead Co-I and listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * Author: Listed as Theory and Modeling Team Lead Co-I (since 2005) in the leadership section of the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS), and as Theory and Modeling Lead in the MMS Science Working Group
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Tai.D.Phan</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) (Scientist-in-the-Loop, since 2018)
+          * Author: Listed as Science Operations Team Lead in the MMS Science Working Group on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Daniel.N.Baker</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Science Operations Center Lead Co-I since 2005 and listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS)
+          * Author: Third author of the EPD/EIS instrument paper (Mauk et al. 2016, https://doi.org/10.1007/s11214-014-0055-5); on the author list of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Roman.G.Gomez</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) (HPCA, since 2018)
+          * Author: Third author of the HPCA instrument paper (Young et al. 2016, https://doi.org/10.1007/s11214-014-0119-6); on the author list of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Werner.Magnes</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) (FGM digital fluxgate, since 2009)
+          * Author: Third author of the FIELDS suite paper (Torbert et al. 2016, https://doi.org/10.1007/s11214-014-0109-8); on the author list of the MMS CMAD (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Christine.E.Gabrielse</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) (EPD/FEEPS, since 2023)
+          * Author: Named a FEEPS point of contact on the EPD chapter front page of the MMS CMAD, version 2.2 of May 2026, and listed on the CMAD author list (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Drew.L.Turner</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) (FEEPS, since 2018)
+          * Author: Named a FEEPS point of contact on the EPD chapter front page of the MMS CMAD, version 2.2 of May 2026, and listed on the CMAD author list (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Joseph.F.Fennell</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) (EPD/FEEPS, since 2018)
+          * Author: Listed in the emeritus leadership of the EPD chapter of the MMS CMAD as FEEPS point of contact 2003-2023, and on the CMAD author list (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Narges.Ahmadi</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) (FIELDS, since 2018)
+          * Author: On the author list of the MMS Calibration and Measurement Algorithms Document (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), and a named author of the MMS electric double probe (EDP) and DSP data products whose DOI citations the CMAD lists
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Matthew.R.Argall</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) (FIELDS, since 2023)
+          * Author: On the author list of the MMS Calibration and Measurement Algorithms Document (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), and a named author of the MMS search-coil magnetometer (SCM) and electron drift instrument (EDI) data products whose DOI citations the CMAD lists
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Daniel.Bruce.Graham</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) (SDP, since 2023)
+          * Author: On the author list of the MMS Calibration and Measurement Algorithms Document (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), and a named author of the MMS electric double probe (EDP) and DSP data products whose DOI citations the CMAD lists
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ferdinand.Plaschke</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) (FGM, since 2016)
+          * Author: On the author list of the MMS Calibration and Measurement Algorithms Document (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), and a named author of the MMS fluxgate magnetometer (FGM) data products whose DOI citations the CMAD lists
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Alain.Roux</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed among the MMS Science Co-Investigators on the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) (SCM; the page notes he is deceased)
+          * Author: Third author of the MMS search-coil magnetometer (SCM) paper (Le Contel et al. 2016, https://doi.org/10.1007/s11214-014-0096-9)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Kenneth.R.Bromund</PersonID>
+        <Role>Author</Role>
+        <Note>On the author list of the MMS Calibration and Measurement Algorithms Document (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), and a named author of the MMS fluxgate magnetometer (FGM) data products whose DOI citations the CMAD lists</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/David.Fischer</PersonID>
+        <Role>Author</Role>
+        <Note>On the author list of the MMS Calibration and Measurement Algorithms Document (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), and a named author of the MMS fluxgate magnetometer (FGM) data products whose DOI citations the CMAD lists; first author of the paper describing the fluxgate-searchcoil merged magnetic-field product (Fischer et al. 2016, https://doi.org/10.5194/gi-5-521-2016)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Hans.Ulrich.Eichelberger</PersonID>
+        <Role>Author</Role>
+        <Note>On the author list of the MMS Calibration and Measurement Algorithms Document (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), and a named author of the MMS fluxgate magnetometer (FGM) data products whose DOI citations the CMAD lists</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Michael.G.Henderson</PersonID>
+        <Role>Author</Role>
+        <Note>On the author list of the MMS Calibration and Measurement Algorithms Document (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), and a named author of the MMS Magnetic Ephemeris and Coordinates (MEC) data products whose DOI citations the CMAD lists (first author); named MEC contact on the MMS Science Data Center MEC page (https://lasp.colorado.edu/mms/sdc/public/datasets/mec/)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/B.G.Huang</PersonID>
+        <Role>Author</Role>
+        <Note>On the author list of the MMS Calibration and Measurement Algorithms Document (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), and a named author of the MMS fluxgate magnetometer (FGM) data products whose DOI citations the CMAD lists</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Harald.Jeszenszky</PersonID>
+        <Role>Author</Role>
+        <Note>On the author list of the MMS Calibration and Measurement Algorithms Document (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), and a named author of the MMS ASPOC data products whose DOI citations the CMAD lists</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Hannes.Karl.Leinweber</PersonID>
+        <Role>Author</Role>
+        <Note>On the author list of the MMS Calibration and Measurement Algorithms Document (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), and a named author of the MMS fluxgate magnetometer (FGM) data products whose DOI citations the CMAD lists</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Laurent.Mirioni</PersonID>
+        <Role>Author</Role>
+        <Note>On the author list of the MMS Calibration and Measurement Algorithms Document (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), and a named author of the MMS search-coil magnetometer (SCM) and SCM spectral (DSP) data products whose DOI citations the CMAD lists</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Steven.Karl.Morley</PersonID>
+        <Role>Author</Role>
+        <Note>On the author list of the MMS Calibration and Measurement Algorithms Document (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), and a named author of the MMS Magnetic Ephemeris and Coordinates (MEC) data products whose DOI citations the CMAD lists</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.J.Strangeway</PersonID>
+        <Role>Author</Role>
+        <Note>On the author list of the MMS Calibration and Measurement Algorithms Document (Burch et al. 2024, https://doi.org/10.48322/vshd-sv21), and a named author of the MMS fluxgate magnetometer (FGM) data products whose DOI citations the CMAD lists</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/A.D.Jacques</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the FPI instrument paper (Pollock et al. 2016, https://doi.org/10.1007/s11214-016-0245-4)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Martin.Tajmar</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the ASPOC instrument paper (Torkar et al. 2016, https://doi.org/10.1007/s11214-014-0049-3)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/P.Leroy</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the MMS search-coil magnetometer (SCM) paper (Le Contel et al. 2016, https://doi.org/10.1007/s11214-014-0096-9)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Goran.Olsson</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the MMS spin-plane double probe (SDP) paper (Lindqvist et al. 2016, https://doi.org/10.1007/s11214-014-0116-9)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/S.Tucker</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the MMS Axial Double Probe and FIELDS signal-processing (ADP/DSP) paper (Ergun et al. 2016, https://doi.org/10.1007/s11214-014-0115-x)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.C.Westfall</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the MMS Axial Double Probe and FIELDS signal-processing (ADP/DSP) paper (Ergun et al. 2016, https://doi.org/10.1007/s11214-014-0115-x)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Hans.E.Vaith</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the MMS Electron Drift Instrument (EDI) paper (Torbert et al. 2016, https://doi.org/10.1007/s11214-015-0182-7)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/M.S.Granoff</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the MMS Electron Drift Instrument (EDI) paper (Torbert et al. 2016, https://doi.org/10.1007/s11214-015-0182-7)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Galen.Fowler</PersonID>
+        <Role>ProgramScientist</Role>
+        <Note>MMS Program Scientist per the MMS science team page (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS) and the MMS Science Data Center project contacts (https://lasp.colorado.edu/mms/sdc/public/)</Note>
       </Contact>
       <InformationURL>
         <Name>Mission web page</Name>
@@ -30,6 +464,36 @@
         <Name>HelioData</Name>
         <URL>https://helio.data.nasa.gov/mission/MMS</URL>
         <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>MMS mission overview paper</Name>
+        <URL>https://doi.org/10.1007/s11214-015-0164-9</URL>
+        <Description>Magnetospheric Multiscale Overview and Science Objectives (Burch et al. 2016): the mission description paper, including the payload.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>MMS Calibration and Measurement Algorithms Document (CMAD)</Name>
+        <URL>https://doi.org/10.48322/vshd-sv21</URL>
+        <Description>The MMS CMAD (version 2.2, May 2026): mission overview, status and data citation guidance in Chapter 1, followed by per-instrument calibration and data-user-guide chapters.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>MMS Science Data Center</Name>
+        <URL>https://lasp.colorado.edu/mms/sdc/public/</URL>
+        <Description>LASP-hosted MMS public data portal with mission contacts, CMAD chapters, the data management plan and per-instrument dataset pages.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>MMS science team leadership page</Name>
+        <URL>https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS</URL>
+        <Description>MMS science team page listing mission leadership, current and former instrument lead Co-Is, the Science Working Group, Co-Investigators and operations teams.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>The Magnetospheric Multiscale Mission (Space Science Reviews vol. 199)</Name>
+        <URL>https://link.springer.com/journal/11214/199/1/page/1</URL>
+        <Description>The open-access 'MMS Book' journal volume describing the mission, spacecraft, operations and every instrument.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NASA Science MMS mission page</Name>
+        <URL>https://science.nasa.gov/mission/mms/</URL>
+        <Description>NASA Science mission page for MMS with mission overview and status.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

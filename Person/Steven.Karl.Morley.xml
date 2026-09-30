@@ -5,12 +5,18 @@
     <ResourceID>spase://SMWG/Person/Steven.Karl.Morley</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2016-04-29T12:34:56.789Z</ReleaseDate>
+    <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
     <PersonName>Steven Karl Morley</PersonName>
-    <OrganizationName>Intelligence and Space Research, Space Science and Applications, ISR-1</OrganizationName>
+    <OrganizationName>ISR-1: SPACE SCIENCE &amp; APPLICATIONS, Los Alamos National Laboratory</OrganizationName>
     <Address>Los Alamos National Laboratory, Los Alamos, New Mexico</Address>
     <Email>smorley@lanl.gov</Email>
     <PhoneNumber>+1 505 667 0186</PhoneNumber>
     <FaxNumber>+1 505 665 7395</FaxNumber>
+    <ORCIdentifier>0000-0001-8520-0199</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Intelligence and Space Research, Space Science and Applications, ISR-1'. The address, phone number, fax number and email address in this record relate to that previous organization.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0001-8520-0199). This affiliation was held while the mission was operating.
+        </Note>
   </Person>
 </Spase>

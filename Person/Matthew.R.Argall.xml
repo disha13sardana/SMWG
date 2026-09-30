@@ -5,12 +5,17 @@
     <ResourceID>spase://SMWG/Person/Matthew.R.Argall</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2023-03-01T12:34:56.789Z</ReleaseDate>
+    <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
     <PersonName>Matthew R. Argall</PersonName>
-    <OrganizationName>University of New Hampshire</OrganizationName>
+    <OrganizationName>Institute for the Study of Earth, Oceans, and Space University of New Hampshire Durham NH USA</OrganizationName>
     <Address>Morse Hall, Room 410, 8 College Road, Durham, NH 03824</Address>
     <Email>matthew.argall@unh.edu</Email>
     <PhoneNumber>+1 (612) 382-7856</PhoneNumber>
     <ORCIdentifier>0000-0001-6315-1613</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'University of New Hampshire'. The address, phone number and email address in this record relate to that previous organization.
+
+          The organization name on display is as printed on the paper (Denton et al. 2021, https://doi.org/10.1029/2020ja028705). This is the affiliation recorded at the time of publication.
+        </Note>
   </Person>
 </Spase>

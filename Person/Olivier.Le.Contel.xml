@@ -5,11 +5,18 @@
     <ResourceID>spase://SMWG/Person/Olivier.Le.Contel</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2016-06-23T12:34:56.789Z</ReleaseDate>
+    <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
     <PersonName>Olivier Le Contel</PersonName>
-    <OrganizationName>Laboratoire de Physique des Plasmas (LPP, UMR 7648)</OrganizationName>
+    <OrganizationName>Laboratoire de Physique des Plasmas, CNRS Délégation Ile-de-France Sud</OrganizationName>
     <Address>Universite Pierre et Marie Curie, 4 place Jussieu, 75252 Paris Cedex 05, France</Address>
     <Email>olivier.lecontel@lpp.polytechnique.fr</Email>
     <PhoneNumber>33 1 4427 9253</PhoneNumber>
+    <ORCIdentifier>0000-0003-2713-7966</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Laboratoire de Physique des Plasmas (LPP, UMR 7648)'. The address, phone number and email address in this record relate to that previous organization.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0003-2713-7966). This affiliation was held while the mission was operating.
+        </Note>
+    <RORIdentifier>05c95bg36</RORIdentifier>
   </Person>
 </Spase>

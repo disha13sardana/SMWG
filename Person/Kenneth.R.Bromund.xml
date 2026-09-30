@@ -5,12 +5,17 @@
     <ResourceID>spase://SMWG/Person/Kenneth.R.Bromund</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2023-03-01T12:34:56.789Z</ReleaseDate>
+    <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
     <PersonName>Kenneth R. Bromund</PersonName>
-    <OrganizationName>Software Systems Engineering Division, NASA Goddard Space Flight Center</OrganizationName>
+    <OrganizationName>NASA/GSFC Greenbelt MD USA</OrganizationName>
     <Address>Building 23 Suite W339, 8800 Greenbelt Road Greenbelt, MD 20771 USA</Address>
     <Email>kenneth.r.bromund@nasa.gov</Email>
     <PhoneNumber>+1 (301) 286-7576</PhoneNumber>
     <ORCIdentifier>0000-0003-0383-7845</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Software Systems Engineering Division, NASA Goddard Space Flight Center'. The address, phone number and email address in this record relate to that previous organization.
+
+          The organization name on display is as printed on the paper (Boardsen et al. 2026, https://doi.org/10.1029/2026ja035079). This is the affiliation recorded at the time of publication.
+        </Note>
   </Person>
 </Spase>

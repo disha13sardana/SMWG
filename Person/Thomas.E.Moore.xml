@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
-   <Version>2.7.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Thomas.E.Moore</ResourceID>
       <NamingAuthority>SMWG</NamingAuthority>
       <ResourceType>Person</ResourceType>
+      <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
       <PersonName>Thomas E. Moore</PersonName>
-      <OrganizationName>NASA Goddard Space Flight Center-Code 612.2</OrganizationName>
-      <RORIdentifier>0171mag52</RORIdentifier>
+      <OrganizationName>Heliophysics Science Division NASA Goddard Space Flight Center Greenbelt Maryland USA</OrganizationName>
+      <Note>
+          Previously recorded in this record as 'NASA Goddard Space Flight Center-Code 612.2'.
+
+          The organization name on display is as printed on the paper (Collinson et al. 2016, https://doi.org/10.1002/2016ja022590). This is the affiliation recorded at the time of publication.
+        </Note>
+      <RORIdentifier>03myraf72</RORIdentifier>
    </Person>
 </Spase>

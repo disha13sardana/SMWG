@@ -5,11 +5,16 @@
     <ResourceID>spase://SMWG/Person/Hans.Ulrich.Eichelberger</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2023-03-01T12:34:56.789Z</ReleaseDate>
+    <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
     <PersonName>Hans Ulrich Eichelberger</PersonName>
-    <OrganizationName>Space Research Institute, Austrian Academy of Sciences</OrganizationName>
+    <OrganizationName>Space Research Institute (IWF), Austrian Academy of Sciences</OrganizationName>
     <Address>Österreichische Akademie der Wissenschaften, Schmiedlstraße 6, 8042 Graz, Austria</Address>
     <Email>Hans.Ulrich.Eichelberger@oeaw.ac.at</Email>
     <PhoneNumber>+43 (316) 4120-557</PhoneNumber>
+    <Note>
+          Previously recorded in this record as 'Space Research Institute, Austrian Academy of Sciences'. The address, phone number and email address in this record relate to that previous organization.
+
+          The organization name on display is reported but not confirmed against an independent source. This is the person's current or most recent affiliation.
+        </Note>
   </Person>
 </Spase>

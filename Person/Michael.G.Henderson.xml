@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
-   <Version>2.7.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Michael.G.Henderson</ResourceID>
       <NamingAuthority>SMWG</NamingAuthority>
       <ResourceType>Person</ResourceType>
+      <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
       <PersonName>Michael G. Henderson</PersonName>
-      <OrganizationName>Los Alamos National Laboratory</OrganizationName>
-      <RORIdentifier>01e41cf67</RORIdentifier>
+      <OrganizationName>ISR-1: SPACE SCIENCE &amp; APPLICATIONS, Los Alamos National Laboratory</OrganizationName>
+      <ORCIdentifier>0000-0003-4975-9029</ORCIdentifier>
+      <Note>
+          Previously recorded in this record as 'Los Alamos National Laboratory'.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0003-4975-9029). This affiliation was held while the mission was operating.
+        </Note>
    </Person>
 </Spase>

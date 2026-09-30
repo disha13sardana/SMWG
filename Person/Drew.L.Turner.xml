@@ -5,12 +5,18 @@
     <ResourceID>spase://SMWG/Person/Drew.L.Turner</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2023-03-01T12:34:56.789Z</ReleaseDate>
+    <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
     <PersonName>Drew L. Turner</PersonName>
-    <OrganizationName>Space Exploration Sector, Johns Hopkins University, Applied Physics Laboratory</OrganizationName>
+    <OrganizationName>Space Sciences Department, The Aerospace Corporation</OrganizationName>
     <Address>11100 Johns Hopkins Road, Laurel, MD 20723 USA</Address>
     <Email>drew.turner@jhuapl.edu</Email>
     <PhoneNumber>+1 (240) 228-5000</PhoneNumber>
     <ORCIdentifier>0000-0002-2425-7818</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Space Exploration Sector, Johns Hopkins University, Applied Physics Laboratory'. The address, phone number and email address in this record relate to that previous organization.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0002-2425-7818). This affiliation was held while the mission was operating.
+        </Note>
+    <RORIdentifier>01ar9e455</RORIdentifier>
   </Person>
 </Spase>

@@ -5,11 +5,18 @@
     <ResourceID>spase://SMWG/Person/Barbara.L.Giles</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2016-06-01T12:34:56.789Z</ReleaseDate>
+    <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
     <PersonName>Barbara L. Giles</PersonName>
-    <OrganizationName>Retired - formerly at Science and Exploration Directorate</OrganizationName>
+    <OrganizationName>Heliophysics Science Division NASA Goddard Space Flight Center Greenbelt MD USA</OrganizationName>
     <Address>NASA Goddard Space Flight Center, Mail Code 673, Greenbelt, MD 20771</Address>
     <Email>bgiles@polarwindsres.com</Email>
     <PhoneNumber>301 286-5574</PhoneNumber>
+    <ORCIdentifier>0000-0001-8054-825X</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Retired - formerly at Science and Exploration Directorate'. The address, phone number and email address in this record relate to that previous organization.
+
+          The organization name on display is as printed on the paper (Wendel et al. 2018, https://doi.org/10.1002/2017ja024467). This is the affiliation recorded at the time of publication.
+        </Note>
+    <RORIdentifier>03myraf72</RORIdentifier>
   </Person>
 </Spase>

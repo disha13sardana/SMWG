@@ -5,11 +5,18 @@
     <ResourceID>spase://SMWG/Person/Hanying.Wei</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2023-03-01T12:34:56.789Z</ReleaseDate>
+    <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
     <PersonName>Hanying Wei</PersonName>
-    <OrganizationName>Department of Earth, Planetary and Space Sciences, University of California, Los Angeles</OrganizationName>
+    <OrganizationName>Earth Planetary and Space Sciences, University of California, Los Angeles</OrganizationName>
     <Address>Los Angeles, CA 90095-1567 USA</Address>
     <Email>hwei@igpp.ucla.edu</Email>
     <PhoneNumber>+1 (310) 205-6868</PhoneNumber>
+    <ORCIdentifier>0000-0002-8574-0416</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Department of Earth, Planetary and Space Sciences, University of California, Los Angeles'. The address, phone number and email address in this record relate to that previous organization.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0002-8574-0416). This affiliation was held while the mission was operating.
+        </Note>
+    <RORIdentifier>046rm7j60</RORIdentifier>
   </Person>
 </Spase>

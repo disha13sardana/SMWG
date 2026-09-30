@@ -5,12 +5,18 @@
     <ResourceID>spase://SMWG/Person/Hannes.Karl.Leinweber</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2023-03-01T12:34:56.789Z</ReleaseDate>
+    <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
     <PersonName>Hannes Karl Leinweber</PersonName>
-    <OrganizationName>Department of Earth, Planetary and Space Sciences, University of California, Los Angeles</OrganizationName>
+    <OrganizationName>Department of Earth, Planetary, and Space Sciences University of California Los Angeles California USA</OrganizationName>
     <Address>Los Angeles, CA 90095-1567 USA</Address>
     <Email>hleinweber@igpp.ucla.edu</Email>
     <PhoneNumber>+1 (310) 825-2040</PhoneNumber>
     <ORCIdentifier>0000-0002-1897-9080</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Department of Earth, Planetary and Space Sciences, University of California, Los Angeles'. The address, phone number and email address in this record relate to that previous organization.
+
+          The organization name on display is as printed on the paper (Anderson et al. 2016, https://doi.org/10.1002/2016gl069577). This is the affiliation recorded at the time of publication.
+        </Note>
+    <RORIdentifier>046rm7j60</RORIdentifier>
   </Person>
 </Spase>

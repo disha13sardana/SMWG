@@ -5,12 +5,18 @@
     <ResourceID>spase://SMWG/Person/Per-Arne.Lindqvist</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2023-03-01T12:34:56.789Z</ReleaseDate>
+    <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
     <PersonName>Per-Arne Lindqvist</PersonName>
-    <OrganizationName>Division of Space and Plasma Physics, Royal Institute of Technology</OrganizationName>
+    <OrganizationName>Space and Plasma Physics, School of Electrical Engineering and Computer Science KTH Royal Institute of Technology Stockholm Sweden</OrganizationName>
     <Address>Teknikringen 31, SE-100 44 Stockholm, Sweden</Address>
     <Email>pal@kth.se</Email>
     <PhoneNumber>+46 8 790 76 96</PhoneNumber>
     <ORCIdentifier>0000-0001-5617-9765</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Division of Space and Plasma Physics, Royal Institute of Technology'. The address, phone number and email address in this record relate to that previous organization.
+
+          The organization name on display is as printed on the paper (Raptis et al. 2020, https://doi.org/10.1029/2019ja027754). This is the affiliation recorded at the time of publication.
+        </Note>
+    <RORIdentifier>026vcq606</RORIdentifier>
   </Person>
 </Spase>

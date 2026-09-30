@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Rumi.Nakamura</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
     <PersonName>Dr. Rumi Nakamura</PersonName>
-    <OrganizationName>Austrian Academy of Sciences</OrganizationName>
+    <OrganizationName>Space Research Institute, Austrian Academy of Sciences</OrganizationName>
+    <ORCIdentifier>0000-0002-2620-9211</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Austrian Academy of Sciences'.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0002-2620-9211). This affiliation was held while the mission was operating.
+        </Note>
+    <RORIdentifier>002w0jp71</RORIdentifier>
   </Person>
 </Spase>

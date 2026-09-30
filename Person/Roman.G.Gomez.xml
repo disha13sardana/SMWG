@@ -5,11 +5,17 @@
     <ResourceID>spase://SMWG/Person/Roman.G.Gomez</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2023-03-01T12:34:56.789Z</ReleaseDate>
+    <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
     <PersonName>Roman G. Gomez</PersonName>
-    <OrganizationName>Southwest Research Institute</OrganizationName>
+    <OrganizationName>Space Science and Engineering, Southwest Research Institute</OrganizationName>
     <Address>6220 Culebra Road, San Antonio, TX 78238-5166, USA</Address>
     <Email>rgomez@swri.edu</Email>
     <ORCIdentifier>0000-0001-7888-668X</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Southwest Research Institute'. The address and email address in this record relate to that previous organization.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0001-7888-668X). This affiliation was held while the mission was operating.
+        </Note>
+    <RORIdentifier>03tghng59</RORIdentifier>
   </Person>
 </Spase>

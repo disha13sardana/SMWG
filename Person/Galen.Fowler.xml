@@ -2,16 +2,13 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <Person>
-    <ResourceID>spase://SMWG/Person/David.T.Young</ResourceID>
+    <ResourceID>spase://SMWG/Person/Galen.Fowler</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
     <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
-    <PersonName>David T. Young</PersonName>
-    <OrganizationName>Southwest Research Institute</OrganizationName>
-    <Address>6220 Culebra Road, San Antonio, TX 78238-5166, USA</Address>
-    <Email>dyoung@swri.edu</Email>
-    <ORCIdentifier>0000-0001-9473-7000</ORCIdentifier>
+    <PersonName>Galen Fowler</PersonName>
+    <OrganizationName>NASA Headquarters</OrganizationName>
     <Note>Affiliation from the data provider's own documentation (https://lasp.colorado.edu/galaxy/spaces/mms/pages/2326576/About+MMS). This is the person's current or most recent affiliation.</Note>
-    <RORIdentifier>03tghng59</RORIdentifier>
+    <RORIdentifier>027ka1x80</RORIdentifier>
   </Person>
 </Spase>

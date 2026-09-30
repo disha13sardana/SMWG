@@ -1,14 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Tai.D.Phan</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2025-06-18T18:37:14Z</ReleaseDate>
-    <OrganizationName>University of California, Berkeley; Space Sciences Lab</OrganizationName>
+    <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
+    <PersonName>Tai D. Phan</PersonName>
+    <OrganizationName>space sciences laboratory, University of California Berkeley</OrganizationName>
     <Email>phan@ssl.berkeley.edu</Email>
     <PhoneNumber>510-643-5505</PhoneNumber>
     <ORCIdentifier>0000-0002-6924-9408</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'University of California, Berkeley; Space Sciences Lab'. The phone number and email address in this record relate to that previous organization.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0002-6924-9408). This affiliation was held while the mission was operating.
+        </Note>
+    <RORIdentifier>048400679</RORIdentifier>
   </Person>
 </Spase>

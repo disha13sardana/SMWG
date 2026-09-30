@@ -5,12 +5,17 @@
     <ResourceID>spase://SMWG/Person/Laurent.Mirioni</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2023-03-01T12:34:56.789Z</ReleaseDate>
+    <ReleaseDate>2026-09-30T22:56:01Z</ReleaseDate>
     <PersonName>Laurent Mirioni</PersonName>
-    <OrganizationName>Laboratoire de Physique des Plasmas (LPP) UMR7648</OrganizationName>
+    <OrganizationName>CNRS/Ecole Polytechnique/UPMC/Univ. Paris-Sud/Obser. de Paris</OrganizationName>
     <Address>Ecole Polytechnique, route de Saclay, F-91128 PALAISEAU CEDEX</Address>
     <Email>laurent.mirioni@lpp.polytechnique.fr</Email>
     <PhoneNumber>0169335882</PhoneNumber>
     <ORCIdentifier>0000-0002-5771-5766</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Laboratoire de Physique des Plasmas (LPP) UMR7648'. The address, phone number and email address in this record relate to that previous organization.
+
+          The organization name on display is as printed on the paper (Qeeq et al. 2023, https://doi.org/10.22541/essoar.169447459.98754807/v1). This is the affiliation recorded at the time of publication.
+        </Note>
   </Person>
 </Spase>
