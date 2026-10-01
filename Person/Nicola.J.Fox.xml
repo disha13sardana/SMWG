@@ -1,12 +1,20 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
+    xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+    <Version>2.7.1</Version>
     <Person>
         <ResourceID>spase://SMWG/Person/Nicola.J.Fox</ResourceID>
-        <ReleaseDate>2010-03-01T14:30:21Z</ReleaseDate>
+        <NamingAuthority>SMWG</NamingAuthority>
+        <ResourceType>Person</ResourceType>
+        <ReleaseDate>2026-10-01T01:39:01Z</ReleaseDate>
         <PersonName>Dr. Nicola J. Fox</PersonName>
-        <OrganizationName>JHU/APL</OrganizationName>
+        <OrganizationName>Johns Hopkins University Applied Physics Laboratory</OrganizationName>
         <Address>Applied Physics Laboratory Johns Hopkins University, 11100 Johns Hopkins Road, Laurel MD 20723-6099</Address>
         <Email>nicola.fox@jhuapl.edu</Email>
+        <Note>
+          Previously recorded in this record as 'JHU/APL'. The address and email address in this record relate to that previous organization.
+
+          The organization name on display is from the data provider's own documentation (https://web.archive.org/web/20180902041814/http://parkersolarprobe.jhuapl.edu/The-Mission/index.php).
+        </Note>
+        <RORIdentifier>029pp9z10</RORIdentifier>
     </Person>
 </Spase>

@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Stuart.D.Bale</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-10-01T01:39:01Z</ReleaseDate>
     <PersonName>Dr. Stuart D. Bale</PersonName>
-    <OrganizationName>University of California, Berkeley</OrganizationName>
+    <OrganizationName>Physics and Space Sciences Laboratory, University of California Berkeley</OrganizationName>
+    <ORCIdentifier>0000-0002-1989-3596</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'University of California, Berkeley'.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0002-1989-3596). This affiliation was held while the mission was operating.
+        </Note>
+    <RORIdentifier>048400679</RORIdentifier>
   </Person>
 </Spase>

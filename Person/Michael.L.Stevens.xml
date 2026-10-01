@@ -5,8 +5,15 @@
     <ResourceID>spase://SMWG/Person/Michael.L.Stevens</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2017-07-25T00:00:00.000Z</ReleaseDate>
+    <ReleaseDate>2026-10-01T01:39:01Z</ReleaseDate>
     <PersonName>Michael Louis Stevens</PersonName>
-    <OrganizationName>Harvard-Smithsonian Center for Astrophysics</OrganizationName>
+    <OrganizationName>Smithsonian Astrophysical Observatory</OrganizationName>
+    <ORCIdentifier>0000-0002-7728-0085</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Harvard-Smithsonian Center for Astrophysics'.
+
+          The organization name on display is as printed on the paper (Livi et al. 2021, https://doi.org/10.1002/essoar.10508651.1). This is the affiliation recorded at the time of publication.
+        </Note>
+    <RORIdentifier>04mh52z70</RORIdentifier>
   </Person>
 </Spase>

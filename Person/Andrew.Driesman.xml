@@ -2,15 +2,13 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <Person>
-    <ResourceID>spase://SMWG/Person/Russell.A.Howard</ResourceID>
+    <ResourceID>spase://SMWG/Person/Andrew.Driesman</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
     <ReleaseDate>2026-10-01T01:39:01Z</ReleaseDate>
-    <PersonName>Dr. Russell A. Howard</PersonName>
+    <PersonName>Andrew Driesman</PersonName>
     <OrganizationName>Johns Hopkins University Applied Physics Laboratory</OrganizationName>
-    <Email>Russell.Howard@jhuapl.edu</Email>
-    <ORCIdentifier>0000-0001-9027-8249</ORCIdentifier>
-    <Note>Affiliation as printed on the paper (Liewer et al. 2026, https://doi.org/10.3847/1538-4357/ae878d). This is the affiliation recorded at the time of publication.</Note>
+    <Note>Affiliation as printed on the paper (Reynolds et al. 2013, https://doi.org/10.2514/6.2013-4879). This is the affiliation recorded at the time of publication.</Note>
     <RORIdentifier>029pp9z10</RORIdentifier>
   </Person>
 </Spase>

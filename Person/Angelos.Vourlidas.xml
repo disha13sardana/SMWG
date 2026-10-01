@@ -5,11 +5,17 @@
     <ResourceID>spase://SMWG/Person/Angelos.Vourlidas</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2022-02-24T12:34:56.789Z</ReleaseDate>
+    <ReleaseDate>2026-10-01T01:39:01Z</ReleaseDate>
     <PersonName>Angelos Vourlidas</PersonName>
-    <OrganizationName>Johns Hopkins University Applied Physics Laboratory</OrganizationName>
+    <OrganizationName>SRP, Johns Hopkins University Applied Physics Laboratory</OrganizationName>
     <Email>angelos.vourlidas@jhuapl.edu</Email>
     <PhoneNumber>+1 240 228 5073</PhoneNumber>
     <ORCIdentifier>0000-0002-8164-5948</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Johns Hopkins University Applied Physics Laboratory'. The phone number and email address in this record relate to that previous organization.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0002-8164-5948). This affiliation was held while the mission was operating.
+        </Note>
+    <RORIdentifier>029pp9z10</RORIdentifier>
   </Person>
 </Spase>

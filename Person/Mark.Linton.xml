@@ -5,8 +5,14 @@
     <ResourceID>spase://SMWG/Person/Mark.Linton</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2023-05-03T00:08:46Z</ReleaseDate>
+    <ReleaseDate>2026-10-01T01:39:01Z</ReleaseDate>
     <PersonName>Mark Linton</PersonName>
-    <OrganizationName>US Naval Research Laboratory</OrganizationName>
+    <OrganizationName>US Naval Research Laboratory 4555 Overlook Avenue SW</OrganizationName>
+    <ORCIdentifier>0000-0002-4459-7510</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'US Naval Research Laboratory'.
+
+          The organization name on display is as printed on the paper (Liewer et al. 2026, https://doi.org/10.3847/1538-4357/ae878d). This is the affiliation recorded at the time of publication.
+        </Note>
   </Person>
 </Spase>

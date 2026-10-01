@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_0.xsd">
-   <Version>2.6.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Robert.B.Decker</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2026-10-01T01:39:01Z</ReleaseDate>
       <PersonName>Dr. Robert B. Decker</PersonName>
-      <OrganizationName>Applied Physics Laboratory</OrganizationName>
+      <OrganizationName>Johns Hopkins University Applied Physics Laboratory</OrganizationName>
       <Email>Rob.Decker@jhuapl.edu</Email>
+      <Note>
+          Previously recorded in this record as 'Applied Physics Laboratory'. The email address in this record relates to that previous organization.
+
+          The organization name on display is from the data provider's own documentation (https://parkersolarprobe.jhuapl.edu/The-Mission/index.php). This is the person's current or most recent affiliation.
+        </Note>
+      <RORIdentifier>029pp9z10</RORIdentifier>
    </Person>
 </Spase>

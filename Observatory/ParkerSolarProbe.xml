@@ -10,7 +10,7 @@
       <AlternateName>PSP</AlternateName>
       <AlternateName>Solar Probe Plus Spacecraft</AlternateName>
       <AlternateName>SPP</AlternateName>
-      <ReleaseDate>2026-07-20T16:22:51Z</ReleaseDate>
+      <ReleaseDate>2026-10-01T01:39:01Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
@@ -23,6 +23,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-07-20T16:22:51Z</ReleaseDate>
           <Note>Added HelioData InformationURL. JWL</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-10-01T01:39:01Z</ReleaseDate>
+          <Note>Added mission Contacts with Author and qualifying roles derived from mission literature and instrument records; corrected schemaLocation to match the declared SPASE Version. Candidate and enrichment files: https://github.com/disha13sardana/spase-metadata-agents/tree/5a7165b/spase_records/ParkerSolarProbe. DS</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The Parker Solar Probe is designed to orbit the Sun, making numerous close approaches, in order to trace the flow of energy, study the heating of the solar corona, and explore the acceleration of the solar wind. The detailed science objectives are:
@@ -49,16 +53,150 @@ The mission is named for physicist Eugene Parker, who first theorized the existe
         <AwardNumber>NNN06AA01C</AwardNumber>
       </Funding>
       <Contact>
-        <PersonID>spase://SMWG/Person/Nour.Raouafi</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <Contact>
         <PersonID>spase://SMWG/Person/Nicola.J.Fox</PersonID>
         <Role>ProjectScientist</Role>
+        <Role>Author</Role>
+        <Note>
+          * ProjectScientist: Listed as Project Scientist in the Parker Solar Probe Observatory record Contacts (https://spase-metadata.org/SMWG/Observatory/ParkerSolarProbe.html) and on the mission team page at launch (https://web.archive.org/web/20180902041814/http://parkersolarprobe.jhuapl.edu/The-Mission/index.php); she was the mission's original Project Scientist, and the current mission team page names Nour Raouafi in that role (https://parkersolarprobe.jhuapl.edu/The-Mission/index.php)
+          * Author: First author of the Parker Solar Probe mission overview paper (Fox et al. 2016, https://doi.org/10.1007/s11214-015-0211-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Nour.Raouafi</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>Author</Role>
+        <Note>
+          * ProjectScientist: Named Project Scientist on the current mission team page (https://parkersolarprobe.jhuapl.edu/The-Mission/index.php) and in the September 2021 Science Data Management Plan (https://spdf.gsfc.nasa.gov/pub/data/psp/documents/PSP_SDMP_2021_7434-9101_Rev_B.pdf); the Parker Solar Probe Observatory record Contacts list him as Principal Investigator, but the mission's team pages list no mission-level Principal Investigator
+          * Author: Co-author of the Parker Solar Probe mission overview paper (Fox et al. 2016, https://doi.org/10.1007/s11214-015-0211-6), confirmed as the mission's Project Scientist on the current mission team page (https://parkersolarprobe.jhuapl.edu/The-Mission/index.php)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Eric.R.Christian</PersonID>
+        <Role>DeputyPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * DeputyPI: Deputy Principal Investigator of the IS☉IS (ISOIS) instrument suite, listed in the ISOIS Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/ParkerSolarProbe/ISOIS.html) and confirmed in his NASA Goddard staff biography (https://science.gsfc.nasa.gov/sci/bio/eric.r.christian)
+          * Author: Listed as Deputy Principal Investigator of the IS☉IS (ISOIS) instrument suite in its SPASE Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/ParkerSolarProbe/ISOIS.html); also a co-author of the ISOIS instrument description paper (McComas et al. 2016, https://doi.org/10.1007/s11214-014-0059-1)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Justin.C.Kasper</PersonID>
+        <Role>FormerPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: Former Principal Investigator of the SWEAP instrument suite: listed as PI in the SWEAP Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/ParkerSolarProbe/SWEAP.html), on the mission team page at launch in 2018, and in the September 2021 Science Data Management Plan; the current mission team and spacecraft pages name Michael Stevens as SWEAP PI (https://parkersolarprobe.jhuapl.edu/Spacecraft/index.php)
+          * Author: First author of the SWEAP instrument description paper, listed ahead of an alphabetized author list (Kasper et al. 2016, https://doi.org/10.1007/s11214-015-0206-3), and co-author of the Parker Solar Probe mission overview paper (Fox et al. 2016, https://doi.org/10.1007/s11214-015-0211-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Russell.A.Howard</PersonID>
+        <Role>FormerPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: Former Principal Investigator of the WISPR instrument: listed as PI in the WISPR Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/ParkerSolarProbe/WISPR.html) and on the mission team page at launch in 2018; the September 2021 Science Data Management Plan and the current mission team page name Mark Linton as WISPR PI (https://parkersolarprobe.jhuapl.edu/The-Mission/index.php)
+          * Author: Second author of the WISPR instrument description paper (Vourlidas et al. 2016, https://doi.org/10.1007/s11214-014-0114-y) and co-author of the Parker Solar Probe mission overview paper (Fox et al. 2016, https://doi.org/10.1007/s11214-015-0211-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stuart.D.Bale</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Principal Investigator of the FIELDS instrument suite, listed in the FIELDS Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/ParkerSolarProbe/FIELDS.html) and on the current mission team page (https://parkersolarprobe.jhuapl.edu/The-Mission/index.php)
+          * Author: First author of the FIELDS instrument description paper (Bale et al. 2016, https://doi.org/10.1007/s11214-016-0244-5) and co-author of the Parker Solar Probe mission overview paper (Fox et al. 2016, https://doi.org/10.1007/s11214-015-0211-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Principal Investigator of the IS☉IS (ISOIS) instrument suite, listed in the ISOIS Instrument record Contacts (https://spase-metadata.org/SMWG/Instrument/ParkerSolarProbe/ISOIS.html) and on the current mission team page (https://parkersolarprobe.jhuapl.edu/The-Mission/index.php)
+          * Author: First author of the IS☉IS (ISOIS) instrument description paper, listed ahead of an alphabetized author list (McComas et al. 2016, https://doi.org/10.1007/s11214-014-0059-1), and co-author of the Parker Solar Probe mission overview paper (Fox et al. 2016, https://doi.org/10.1007/s11214-015-0211-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Michael.L.Stevens</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Current Principal Investigator of the SWEAP instrument suite, per the mission team page (https://parkersolarprobe.jhuapl.edu/The-Mission/index.php) and spacecraft page (https://parkersolarprobe.jhuapl.edu/Spacecraft/index.php); the SWEAP Instrument record Contacts still list his predecessor, Justin Kasper
+          * Author: Named as the current Principal Investigator of the SWEAP instrument suite on the mission team and spacecraft pages (https://parkersolarprobe.jhuapl.edu/Spacecraft/index.php); also a co-author of the SWEAP instrument description paper (Kasper et al. 2016, https://doi.org/10.1007/s11214-015-0206-3)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mark.Linton</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Current Principal Investigator of the WISPR instrument, per the mission team page (https://parkersolarprobe.jhuapl.edu/The-Mission/index.php), the September 2021 Science Data Management Plan (https://spdf.gsfc.nasa.gov/pub/data/psp/documents/PSP_SDMP_2021_7434-9101_Rev_B.pdf) and a 2024 NRL release (https://phys.org/news/2024-03-imaging-turbulence-solar-transients.html); the WISPR Instrument record Contacts still list his predecessor, Russell Howard
+          * Author: Named as the current Principal Investigator of the WISPR instrument on the mission team and spacecraft pages (https://parkersolarprobe.jhuapl.edu/Spacecraft/index.php); also a co-author of the WISPR instrument description paper (Vourlidas et al. 2016, https://doi.org/10.1007/s11214-014-0114-y)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Marco.Velli</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the Parker Solar Probe mission overview paper (Fox et al. 2016, https://doi.org/10.1007/s11214-015-0211-6)</Note>
       </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.B.Decker</PersonID>
-        <Role>Scientist</Role>
+        <Role>Author</Role>
+        <Note>Co-author of the Parker Solar Probe mission overview paper (Fox et al. 2016, https://doi.org/10.1007/s11214-015-0211-6), confirmed as the mission's Deputy Project Scientist on the mission team page at launch and today (https://parkersolarprobe.jhuapl.edu/The-Mission/index.php)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
+        <Role>Author</Role>
+        <Note>Co-author of the Parker Solar Probe mission overview paper (Fox et al. 2016, https://doi.org/10.1007/s11214-015-0211-6), confirmed as the NASA Goddard Mission Scientist for Parker Solar Probe on the mission team page at launch and today (https://parkersolarprobe.jhuapl.edu/The-Mission/index.php)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Andrew.Driesman</PersonID>
+        <Role>Author</Role>
+        <Note>Co-author of the Parker Solar Probe mission overview paper (Fox et al. 2016, https://doi.org/10.1007/s11214-015-0211-6), confirmed as the mission's Project Manager on the mission team page at launch (https://web.archive.org/web/20180902041814/http://parkersolarprobe.jhuapl.edu/The-Mission/index.php)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jim.Kinnison</PersonID>
+        <Role>Author</Role>
+        <Note>Co-author of the Parker Solar Probe mission overview paper (Fox et al. 2016, https://doi.org/10.1007/s11214-015-0211-6), confirmed as the Mission System Engineer on the mission team page at launch (https://web.archive.org/web/20180902041814/http://parkersolarprobe.jhuapl.edu/The-Mission/index.php) and in the September 2021 Science Data Management Plan (https://spdf.gsfc.nasa.gov/pub/data/psp/documents/PSP_SDMP_2021_7434-9101_Rev_B.pdf)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Martha.B.Kusterer</PersonID>
+        <Role>Author</Role>
+        <Note>Co-author of the Parker Solar Probe mission overview paper (Fox et al. 2016, https://doi.org/10.1007/s11214-015-0211-6), confirmed as the mission's Science Operations Center Coordinator and co-preparer of the September 2021 Science Data Management Plan (https://spdf.gsfc.nasa.gov/pub/data/psp/documents/PSP_SDMP_2021_7434-9101_Rev_B.pdf)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/David.Lario</PersonID>
+        <Role>Author</Role>
+        <Note>Co-author of the Parker Solar Probe mission overview paper (Fox et al. 2016, https://doi.org/10.1007/s11214-015-0211-6), confirmed as the mission's Deputy Mission Scientist in his NASA Goddard staff biography (https://science.gsfc.nasa.gov/sci/bio/david.larioloyo)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mary.Kae.Lockwood</PersonID>
+        <Role>Author</Role>
+        <Note>Co-author of the Parker Solar Probe mission overview paper (Fox et al. 2016, https://doi.org/10.1007/s11214-015-0211-6), confirmed as the Parker Solar Probe spacecraft system engineer in a 2017 APL news release (https://www.jhuapl.edu/news/news-releases/170621-cool-power)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Keith.A.Goetz</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the FIELDS instrument description paper (Bale et al. 2016, https://doi.org/10.1007/s11214-016-0244-5)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Peter.R.Harvey</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the FIELDS instrument description paper (Bale et al. 2016, https://doi.org/10.1007/s11214-016-0244-5)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Angelos.Vourlidas</PersonID>
+        <Role>Author</Role>
+        <Note>First author of the WISPR instrument description paper (Vourlidas et al. 2016, https://doi.org/10.1007/s11214-014-0114-y)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Simon.Plunkett</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the WISPR instrument description paper (Vourlidas et al. 2016, https://doi.org/10.1007/s11214-014-0114-y)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Arik.Posner</PersonID>
+        <Role>ProgramScientist</Role>
+        <Note>Program Scientist for Parker Solar Probe at NASA Headquarters, per the current mission team page (https://parkersolarprobe.jhuapl.edu/The-Mission/index.php) and the same page as archived at launch in 2018 (https://web.archive.org/web/20180902041814/http://parkersolarprobe.jhuapl.edu/The-Mission/index.php)</Note>
       </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
@@ -92,6 +230,31 @@ The mission is named for physicist Eugene Parker, who first theorized the existe
         <Name>HelioData</Name>
         <URL>https://helio.data.nasa.gov/mission/ParkerSolarProbe</URL>
         <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Mission team</Name>
+        <URL>https://parkersolarprobe.jhuapl.edu/The-Mission/index.php</URL>
+        <Description>Current NASA and APL mission management, project science team, and the Principal Investigator of each instrument suite.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Spacecraft and instruments</Name>
+        <URL>https://parkersolarprobe.jhuapl.edu/Spacecraft/index.php</URL>
+        <Description>APL description of the spacecraft and its four instrument suites, naming each suite's current Principal Investigator.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Mission web page, NASA</Name>
+        <URL>https://science.nasa.gov/mission/parker-solar-probe/</URL>
+        <Description>NASA Science mission page for Parker Solar Probe, the current destination of the record's nasa.gov link.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Parker Solar Probe instruments, NASA</Name>
+        <URL>https://science.nasa.gov/mission/parker-solar-probe/parker-solar-probe-instruments/</URL>
+        <Description>NASA overview of the FIELDS, WISPR, SWEAP and IS☉IS instrument suites; replaces the retired nasa.gov instruments link used in the Instrument records.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Science Data Management Plan</Name>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/psp/documents/PSP_SDMP_2021_7434-9101_Rev_B.pdf</URL>
+        <Description>Parker Solar Probe Science Data Management Plan, Revision B (September 2021): data products, processing, archiving and data-use rules, with mission and instrument sign-off.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>
