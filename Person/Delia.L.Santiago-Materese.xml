@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Delia.L.Santiago-Materese</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-11-09T00:00:44Z</ReleaseDate>
+    <PersonName>Delia L. Santiago-Materese</PersonName>
+    <OrganizationName>NASA Headquarters, Planetary Science Division</OrganizationName>
+    <Note>Affiliation from the data provider's own documentation (https://science.nasa.gov/people/delia-l-santiago-materese/). This is the person's current or most recent affiliation.</Note>
+    <RORIdentifier>04cr1bk24</RORIdentifier>
+  </Person>
+</Spase>

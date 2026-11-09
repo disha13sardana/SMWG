@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Denis.C.Grodent</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-11-09T00:00:44Z</ReleaseDate>
+    <PersonName>Denis C. Grodent</PersonName>
+    <OrganizationName>Laboratoire de Physique Atmosphérique et Planétaire STAR Institute Université de Liège Liège Belgium</OrganizationName>
+    <ORCIdentifier>0000-0002-9938-4707</ORCIdentifier>
+    <Note>Affiliation as printed on the paper (Giles et al. 2023, https://doi.org/10.1029/2022je007610). This is the affiliation recorded at the time of publication.</Note>
+    <RORIdentifier>00afp2z80</RORIdentifier>
+  </Person>
+</Spase>

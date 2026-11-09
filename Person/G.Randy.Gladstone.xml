@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/G.Randy.Gladstone</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-11-09T00:00:44Z</ReleaseDate>
     <PersonName>Dr. G. Randy Gladstone</PersonName>
-    <OrganizationName>Southwest Research Institute</OrganizationName>
+    <OrganizationName>Space Science and Engineering, Southwest Research Institute</OrganizationName>
+    <ORCIdentifier>0000-0003-0060-072X</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Southwest Research Institute'.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0003-0060-072X). This affiliation was held while the mission was operating.
+        </Note>
+    <RORIdentifier>03tghng59</RORIdentifier>
   </Person>
 </Spase>

@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_4_1.xsd">
-   <Version>2.4.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Dennis.K.Haggerty</ResourceID>
-      <ReleaseDate>2022-04-03T12:34:56.789Z</ReleaseDate>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2026-11-09T00:00:44Z</ReleaseDate>
       <PersonName>Dr. Dennis K. Haggerty</PersonName>
-      <OrganizationName>Applied Physics Laboratory</OrganizationName>
+      <OrganizationName>Space, Johns Hopkins University Applied Physics Laboratory</OrganizationName>
       <Address>11100 Johns Hopkins Road, Laurel, Maryland 20723-6099</Address>
       <Email>dennis.Haggerty@jhuapl.edu</Email>
       <PhoneNumber>+1 (240) 228-5000</PhoneNumber>
+      <ORCIdentifier>0000-0001-6395-8943</ORCIdentifier>
+      <Note>
+          Previously recorded in this record as 'Applied Physics Laboratory'. The address, phone number and email address in this record relate to that previous organization.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0001-6395-8943). This affiliation was held while the mission was operating.
+        </Note>
+      <RORIdentifier>029pp9z10</RORIdentifier>
    </Person>
 </Spase>

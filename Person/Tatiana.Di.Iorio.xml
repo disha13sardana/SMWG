@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Tatiana.Di.Iorio</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-11-09T00:00:44Z</ReleaseDate>
+    <PersonName>Tatiana Di Iorio</PersonName>
+    <OrganizationName>SSPT-PROTER-OEM, ENEA Centro Ricerche Casaccia</OrganizationName>
+    <ORCIdentifier>0000-0001-8872-8917</ORCIdentifier>
+    <Note>Affiliation from the person's ORCID employment history (https://orcid.org/0000-0001-8872-8917). This is the person's current or most recent affiliation.</Note>
+    <RORIdentifier>02khqd465</RORIdentifier>
+  </Person>
+</Spase>

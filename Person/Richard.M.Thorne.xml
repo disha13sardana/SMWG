@@ -5,11 +5,17 @@
     <ResourceID>spase://SMWG/Person/Richard.M.Thorne</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2013-05-24T00:00:00Z</ReleaseDate>
+    <ReleaseDate>2026-11-09T00:00:44Z</ReleaseDate>
     <PersonName>Richard M. Thorne</PersonName>
-    <OrganizationName>UCLA</OrganizationName>
+    <OrganizationName>Atmospheric and Oceanic Science, University of California Los Angeles</OrganizationName>
     <Address>Department of Atmospheric and Oceanic Sciences, UCLA, 7127 MS, Box 951565  Los Angeles, CA 90095-1565</Address>
     <Email>mailto:rmt@atmos.ucla.edu</Email>
     <PhoneNumber>310 8255974</PhoneNumber>
+    <ORCIdentifier>0000-0003-2410-3437</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'UCLA'. The address, phone number and email address in this record relate to that previous organization.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0003-2410-3437). This affiliation was held while the mission was operating.
+        </Note>
   </Person>
 </Spase>

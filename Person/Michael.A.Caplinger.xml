@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Michael.A.Caplinger</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-11-09T00:00:44Z</ReleaseDate>
+    <PersonName>Michael A. Caplinger</PersonName>
+    <OrganizationName>Malin Space Science Systems San Diego California USA</OrganizationName>
+    <ORCIdentifier>0009-0005-1707-9004</ORCIdentifier>
+    <Note>Affiliation as printed on the paper (Orton et al. 2017, https://doi.org/10.1002/2016gl072443). This is the affiliation recorded at the time of publication.</Note>
+  </Person>
+</Spase>

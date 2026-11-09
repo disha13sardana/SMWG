@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Philippe.Louarn</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-11-09T00:00:44Z</ReleaseDate>
     <PersonName>Dr. Philippe Louarn</PersonName>
-    <OrganizationName>Centre National d Edutes Spatiales</OrganizationName>
+    <OrganizationName>Institut de Recherche en Astrophysique et Planétologie Toulouse France</OrganizationName>
+    <ORCIdentifier>0000-0003-2783-0808</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Centre National d Edutes Spatiales'.
+
+          The organization name on display is as printed on the paper (Wang et al. 2021, https://doi.org/10.1029/2021ja029469). This is the affiliation recorded at the time of publication.
+        </Note>
+    <RORIdentifier>05hm2ja81</RORIdentifier>
   </Person>
 </Spase>

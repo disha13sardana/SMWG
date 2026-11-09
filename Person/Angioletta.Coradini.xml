@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Angioletta.Coradini</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-11-09T00:00:44Z</ReleaseDate>
     <PersonName>Dr. Angioletta Coradini</PersonName>
-    <OrganizationName>Consiglio Nazionale delle Ricerche</OrganizationName>
+    <OrganizationName>Istituto Nazionale di Astrofisica–Istituto di Fisica dello Spazio Interplanetario (INAF-IFSI), Rome, Italy.</OrganizationName>
+    <Note>
+          Previously recorded in this record as 'Consiglio Nazionale delle Ricerche'.
+
+          The organization name on display is as printed on the paper (Adriani et al. 2008, https://doi.org/10.1089/ast.2007.0167). This is the affiliation recorded at the time of publication.
+        </Note>
+    <RORIdentifier>02gh4kt33</RORIdentifier>
   </Person>
 </Spase>

@@ -8,7 +8,7 @@
     <ResourceHeader>
       <ResourceName>Juno</ResourceName>
       <AlternateName>Juno Orbiter</AlternateName>
-      <ReleaseDate>2026-07-20T16:22:47Z</ReleaseDate>
+      <ReleaseDate>2026-11-09T00:00:44Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
@@ -21,6 +21,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-07-20T16:22:47Z</ReleaseDate>
           <Note>Added HelioData InformationURL. JWL</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-11-09T00:00:44Z</ReleaseDate>
+          <Note>Added mission Contacts with Author and qualifying roles derived from mission literature and instrument records; corrected schemaLocation to match the declared SPASE Version. Candidate and enrichment files: https://github.com/disha13sardana/spase-metadata-agents/tree/e6175a8/spase_records/Juno. DS</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The Juno mission was launched on August 5, 2011 at 16:25 UTC or equivalently at 12:25 pm EDT from Cape Canaveral Air Force Station. The Juno mission has been designed to study Jupiter from polar orbit for approximately one year beginning in 2016. The primary scientific objectives of the mission are to collect data to investigate:
@@ -58,10 +62,620 @@ Juno was launched on an Atlas V 551 with a Centaur upper stage. There was one Ea
       <Contact>
         <PersonID>spase://SMWG/Person/Scott.J.Bolton</PersonID>
         <Role>PrincipalInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * PrincipalInvestigator: Principal Investigator of the Juno mission: named PI on the mission team page (https://www.missionjuno.swri.edu/the-team/) and in the Juno Observatory record Contacts (https://spase-metadata.org/SMWG/Observatory/Juno.html); NSSDC lists him as Mission Principal Investigator (https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2011-040A)
+          * Author: First author of the Juno mission overview paper (Bolton et al. 2017, https://doi.org/10.1007/s11214-017-0429-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Steve.Levin</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * ProjectScientist: Juno Project Scientist, named on the mission team page (https://www.missionjuno.swri.edu/the-team/) and in the Jupiter orbit insertion press kit (https://www.jpl.nasa.gov/news/press_kits/juno/management/)
+          * InstrumentLead: Current lead of the Juno MWR (Microwave Radiometer) instrument, named Microwave Radiometer lead on the mission team page (https://www.missionjuno.swri.edu/the-team/); Michael Janssen led MWR earlier
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Fifth author of the Juno mission overview paper (Bolton et al. 2017, https://doi.org/10.1007/s11214-017-0429-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/John.E.P.Connerney</PersonID>
+        <Role>DeputyPI</Role>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * DeputyPI: Deputy Principal Investigator of the Juno mission, named on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * InstrumentLead: Principal Investigator of the Juno MAG (Magnetic Field Investigation) instrument: named Magnetometer lead on the mission team page (https://www.missionjuno.swri.edu/the-team/) and MAG Principal Investigator in the NSSDC Master Catalog (https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2011-040A-05)
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: First author of the Juno MAG description paper (Connerney et al. 2017, https://doi.org/10.1007/s11214-017-0334-z) and fourth author of the Juno mission overview paper (Bolton et al. 2017, https://doi.org/10.1007/s11214-017-0429-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Alberto.Adriani</PersonID>
+        <Role>FormerPI</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: Former Principal Investigator of the Juno JIRAM instrument: named JIRAM principal investigator by INAF Media (https://www.media.inaf.it/2012/11/08/laquila-per-giove/, https://www.media.inaf.it/2016/03/18/jiram-scalda-i-motori/) and Europlanet (https://www.europlanet.org/?p=927); the current mission team page names Alessandro Mura as JIRAM lead (https://www.missionjuno.swri.edu/the-team/)
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: First author of the JIRAM instrument description paper (Adriani et al. 2017, https://doi.org/10.1007/s11214-014-0094-y)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/John.D.Anderson</PersonID>
+        <Role>FormerPI</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: Former lead of Juno Gravity Science, named Gravity Science team lead on the launch-era SwRI Juno spacecraft page (https://www.missionjuno.swri.edu/spacecraft/juno-spacecraft); NSSDC later lists William Folkner as Gravity Science Principal Investigator (https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2011-040A-09), and the current mission team page names Ryan Park and Luciano Iess (https://www.missionjuno.swri.edu/the-team/)
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page, which marks him as deceased (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/William.M.Folkner</PersonID>
+        <Role>FormerPI</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: Former Principal Investigator of Juno Gravity Science: NSSDC lists him as Gravity Science Principal Investigator (https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2011-040A-09), while the current mission team page names Ryan Park and Luciano Iess as Gravity leads (https://www.missionjuno.swri.edu/the-team/)
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/) and as Gravity Science Principal Investigator in the NSSDC Master Catalog (https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2011-040A-09)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/G.Randy.Gladstone</PersonID>
+        <Role>FormerPI</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: Former Principal Investigator of the Juno UVS instrument: named UVS team lead on the SwRI Juno spacecraft page (https://www.missionjuno.swri.edu/spacecraft/juno-spacecraft) and UVS Principal Investigator in the NSSDC Master Catalog (https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2011-040A-03); the current mission team page names Thomas Greathouse as UVS lead (https://www.missionjuno.swri.edu/the-team/)
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: First author of the Juno UVS instrument description paper (Gladstone et al. 2017, https://doi.org/10.1007/s11214-014-0040-z)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Michael.A.Janssen</PersonID>
+        <Role>FormerPI</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: Former Principal Investigator of the Juno MWR instrument: named MWR team lead on the SwRI Juno spacecraft page (https://www.missionjuno.swri.edu/spacecraft/juno-spacecraft) and MWR Principal Investigator in the NSSDC Master Catalog (https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2011-040A-04); the current mission team page names Steve Levin as Microwave Radiometer lead (https://www.missionjuno.swri.edu/the-team/)
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: First author of the Juno MWR instrument description paper (Janssen et al. 2017, https://doi.org/10.1007/s11214-017-0349-5)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
+        <Role>FormerPI</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: Former Principal Investigator of the Juno JADE instrument: named JADE lead on the SwRI Juno spacecraft page (https://www.missionjuno.swri.edu/spacecraft/juno-spacecraft) and Principal Investigator in the CDPP-AMDA JADE Instrument record (https://spase-metadata.org/CNES/Instrument/CDPP-AMDA/Juno/JADE.html); NSSDC lists Philip Valek as JADE Principal Investigator (https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2011-040A-07), and the current mission team page names Frédéric Allegrini as JADE lead (https://www.missionjuno.swri.edu/the-team/)
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: First author of the JADE instrument description paper (McComas et al. 2017, https://doi.org/10.1007/s11214-013-9990-9)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Philip.W.Valek</PersonID>
+        <Role>FormerPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * FormerPI: Former Principal Investigator of the Juno JADE instrument: NSSDC lists him as JADE Principal Investigator after David McComas (https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2011-040A-07), and the current mission team page names Frédéric Allegrini as JADE lead (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as JADE Principal Investigator in the NSSDC Master Catalog (https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2011-040A-07)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Frederic.Allegrini</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Current lead of the Juno JADE instrument, named on the mission team page (https://www.missionjuno.swri.edu/the-team/); David McComas and later Philip Valek led JADE earlier
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Named JADE lead and listed as a Co-Investigator on the Juno mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Heidi.N.Becker</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Principal Investigator of the Juno Radiation Monitoring Investigation, which uses the Stellar Reference Unit (SRU): named SRU lead on the mission team page (https://www.missionjuno.swri.edu/the-team/) and Principal Investigator in the NSSDC Master Catalog (https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2011-040A-10)
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: First individual author of the Juno Radiation Monitoring Investigation paper (Becker et al. 2017, https://doi.org/10.1007/s11214-017-0345-9)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Thomas.K.Greathouse</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Current lead of the Juno UVS instrument, named on the mission team page (https://www.missionjuno.swri.edu/the-team/); Randy Gladstone led UVS earlier
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Named UVS lead and listed as a Co-Investigator on the Juno mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Candice.Hansen</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Co-lead of the Juno JunoCam instrument with Michael Ravine: named JunoCam lead on the mission team page (https://www.missionjuno.swri.edu/the-team/) and listed as a JunoCam Principal Investigator in the NSSDC Master Catalog (https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2011-040A-01)
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: First author of the JunoCam instrument description paper (Hansen et al. 2017, https://doi.org/10.1007/s11214-014-0079-x)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Luciano.Iess</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Co-lead of Juno Gravity Science with Ryan Park, named on the mission team page (https://www.missionjuno.swri.edu/the-team/); INAF Media names him principal investigator of the Ka-band translator (KaT) (https://www.media.inaf.it/2012/11/08/laquila-per-giove/)
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Named Gravity lead and listed as a Co-Investigator on the Juno mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/William.S.Kurth</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Principal Investigator of the Juno Waves instrument: named Waves lead on the mission team page (https://www.missionjuno.swri.edu/the-team/) and Waves Principal Investigator in the NSSDC Master Catalog (https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2011-040A-08)
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: First author of the Juno Waves instrument description paper (Kurth et al. 2017, https://doi.org/10.1007/s11214-017-0396-y)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Barry.H.Mauk</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Principal Investigator of the Juno JEDI instrument: named JEDI lead on the mission team page (https://www.missionjuno.swri.edu/the-team/) and JEDI Principal Investigator in the NSSDC Master Catalog (https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2011-040A-06)
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: First author of the JEDI instrument description paper (Mauk et al. 2017, https://doi.org/10.1007/s11214-013-0025-3)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Alessandro.Mura</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Current lead of the Juno JIRAM instrument, named on the mission team page (https://www.missionjuno.swri.edu/the-team/); Alberto Adriani was JIRAM principal investigator earlier, with Mura as deputy (https://www.europlanet.org/?p=927)
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Named JIRAM lead and listed as a Co-Investigator on the Juno mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ryan.Park</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Co-lead of Juno Gravity Science with Luciano Iess, named on the mission team page (https://www.missionjuno.swri.edu/the-team/); earlier leads were John Anderson and William Folkner
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Named Gravity lead and listed as a Co-Investigator on the Juno mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Michael.A.Ravine</PersonID>
+        <Role>InstrumentLead</Role>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * InstrumentLead: Co-lead of the Juno JunoCam instrument with Candice Hansen: named JunoCam lead on the mission team page (https://www.missionjuno.swri.edu/the-team/) and JunoCam Principal Investigator in the NSSDC Master Catalog (https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2011-040A-01)
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Named JunoCam lead and listed as a Co-Investigator on the Juno mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jonathan.I.Lunine</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Second author of the Juno mission overview paper (Bolton et al. 2017, https://doi.org/10.1007/s11214-017-0429-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/David.J.Stevenson</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Third author of the Juno mission overview paper (Bolton et al. 2017, https://doi.org/10.1007/s11214-017-0429-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Shannon.T.Brown</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Third author of the Juno MWR instrument description paper (Janssen et al. 2017, https://doi.org/10.1007/s11214-017-0349-5)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Samuel.L.Gulkis</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/); fourth author of the Juno MWR instrument description paper (Janssen et al. 2017, https://doi.org/10.1007/s11214-017-0349-5)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/George.B.Hospodarsky</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page, as 'George Hosparkarsky (University of Iowa)' (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Second author of the Juno Waves instrument description paper (Kurth et al. 2017, https://doi.org/10.1007/s11214-017-0396-y)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Andrew.P.Ingersoll</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Third author of the JunoCam instrument description paper (Hansen et al. 2017, https://doi.org/10.1007/s11214-014-0079-x) and an author of the Juno mission overview paper (Bolton et al. 2017, https://doi.org/10.1007/s11214-017-0429-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/John.L.Jorgensen</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Michael.D.Allison</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Sushil.K.Atreya</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Frances.Bagenal</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/); also an author of the Juno mission overview paper (Bolton et al. 2017, https://doi.org/10.1007/s11214-017-0429-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Michel.Blanc</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jeremy.Bloxham</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/); also an author of the Juno mission overview paper (Bolton et al. 2017, https://doi.org/10.1007/s11214-017-0429-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Angioletta.Coradini</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page, which marks her as deceased (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/); also an author of the Juno mission overview paper (Bolton et al. 2017, https://doi.org/10.1007/s11214-017-0429-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stanley.W.H.Cowley</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Eric.M.Dejong</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page, which marks him as deceased (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Daniel.Gautier</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page, which marks him as deceased (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/); also an author of the Juno mission overview paper (Bolton et al. 2017, https://doi.org/10.1007/s11214-017-0429-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Denis.C.Grodent</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Tristan.Guillot</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/); also an author of the Juno mission overview paper (Bolton et al. 2017, https://doi.org/10.1007/s11214-017-0429-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ravit.Helled</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/William.B.Hubbard</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/); also an author of the Juno mission overview paper (Bolton et al. 2017, https://doi.org/10.1007/s11214-017-0429-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Masafumi.Imai</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Yohai.Kaspi</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Michael.Klein</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page, which marks him as deceased (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Cheng.Li</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Wen.Li</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Philippe.Louarn</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Burkhard.Militzer</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Kimberly.M.Moore</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Glenn.S.Orton</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/); also an author of the Juno mission overview paper (Bolton et al. 2017, https://doi.org/10.1007/s11214-017-0429-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Tobias.C.Owen</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page, which marks him as deceased (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/); also an author of the Juno mission overview paper (Bolton et al. 2017, https://doi.org/10.1007/s11214-017-0429-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Christopher.P.Paranicas</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page, which marks him as deceased (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Paul.G.Steffes</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Edward.C.Stone.Jr</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Richard.M.Thorne</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page, which marks him as deceased (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/); also an author of the Juno mission overview paper (Bolton et al. 2017, https://doi.org/10.1007/s11214-017-0429-6)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jack.Hunter.Waite.Jr</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page (https://www.missionjuno.swri.edu/the-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jean-Claude.Gerard</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the Juno mission on the mission team page as 'Eric Gerard (University of Liège)' (https://www.missionjuno.swri.edu/the-team/); Europlanet identifies the Liège Co-Investigator as Jean-Claude Gérard (https://www.europlanet.org/?p=927)
+          * Author: Listed as a Juno mission Co-Investigator on the mission team page, as 'Eric Gerard (University of Liège)' (https://www.missionjuno.swri.edu/the-team/); Europlanet names Jean-Claude Gérard of Liège as the Juno Co-Investigator (https://www.europlanet.org/?p=927)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Dennis.K.Haggerty</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the JEDI instrument description paper (Mauk et al. 2017, https://doi.org/10.1007/s11214-013-0025-3)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stephen.E.Jaskulek</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the JEDI instrument description paper (Mauk et al. 2017, https://doi.org/10.1007/s11214-013-0025-3)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Donald.L.Kirchner</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the Juno Waves instrument description paper (Kurth et al. 2017, https://doi.org/10.1007/s11214-017-0396-y)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Steven.C.Persyn</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the Juno UVS instrument description paper (Gladstone et al. 2017, https://doi.org/10.1007/s11214-014-0040-z)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/John.S.Eterno</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the Juno UVS instrument description paper (Gladstone et al. 2017, https://doi.org/10.1007/s11214-014-0040-z)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Gianrico.Filacchione</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the JIRAM instrument description paper (Adriani et al. 2017, https://doi.org/10.1007/s11214-014-0094-y)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Tatiana.Di.Iorio</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the JIRAM instrument description paper (Adriani et al. 2017, https://doi.org/10.1007/s11214-014-0094-y)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Michael.A.Caplinger</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the JunoCam instrument description paper (Hansen et al. 2017, https://doi.org/10.1007/s11214-014-0079-x)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/J.E.Oswald</PersonID>
+        <Role>Author</Role>
+        <Note>Second author of the Juno MWR instrument description paper (Janssen et al. 2017, https://doi.org/10.1007/s11214-017-0349-5)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.W.Alexander</PersonID>
+        <Role>Author</Role>
+        <Note>Second individual author, after the team name and Heidi Becker, of the Juno Radiation Monitoring Investigation paper (Becker et al. 2017, https://doi.org/10.1007/s11214-017-0345-9)</Note>
       </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Mary.M.Mellott</PersonID>
-        <Role>ProjectScientist</Role>
+        <Role>ProgramScientist</Role>
+        <Note>Named Juno Program Scientist at NASA Headquarters in the NSSDC Master Catalog (https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2011-040A). The Juno Observatory record Contacts list her as Project Scientist, but the mission team page names Steve Levin as Project Scientist (https://www.missionjuno.swri.edu/the-team/); NASA's 2016 press kit names Jared Espley as program scientist (https://www.jpl.nasa.gov/news/press_kits/juno/management/), and NASA now lists Delia Santiago-Materese in that role (https://science.nasa.gov/people/delia-l-santiago-materese/)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jared.Espley</PersonID>
+        <Role>ProgramScientist</Role>
+        <Note>Juno Program Scientist at the time of the 2016 Jupiter orbit insertion, named in NASA's press kit (https://www.jpl.nasa.gov/news/press_kits/juno/management/); NASA now lists Delia Santiago-Materese in that role (https://science.nasa.gov/people/delia-l-santiago-materese/)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Delia.L.Santiago-Materese</PersonID>
+        <Role>ProgramScientist</Role>
+        <Note>Current Juno Program Scientist at NASA Headquarters, Planetary Science Division, named on her NASA program-officer page (https://science.nasa.gov/people/delia-l-santiago-materese/)</Note>
       </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
@@ -77,6 +691,71 @@ Juno was launched on an Atlas V 551 with a Centaur upper stage. There was one Ea
         <Name>HelioData</Name>
         <URL>https://helio.data.nasa.gov/mission/Juno</URL>
         <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Juno mission team</Name>
+        <URL>https://www.missionjuno.swri.edu/the-team/</URL>
+        <Description>Mission Juno (SwRI) team page with the org chart naming the Principal Investigator, Deputy PI, Project Scientist, payload leads and the full Co-Investigator list.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Mission web page</Name>
+        <URL>https://www.missionjuno.swri.edu/</URL>
+        <Description>Mission Juno home page at the Southwest Research Institute, the PI institution.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NASA Juno mission page</Name>
+        <URL>https://science.nasa.gov/mission/juno/</URL>
+        <Description>NASA Science mission page for Juno, with mission timeline, status and instrument list.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Juno spacecraft and instruments</Name>
+        <URL>https://www.missionjuno.swri.edu/spacecraft/juno-spacecraft</URL>
+        <Description>SwRI page describing the Juno spacecraft and each science instrument, with its provider and lead.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Juno extended mission</Name>
+        <URL>https://www.missionjuno.swri.edu/extended-mission/</URL>
+        <Description>SwRI page summarizing the science goals of Juno's extended mission.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Juno Jupiter orbit insertion press kit: management</Name>
+        <URL>https://www.jpl.nasa.gov/news/press_kits/juno/management/</URL>
+        <Description>NASA/JPL press-kit page from 2016 naming the Juno mission's management and science leadership.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSDC Juno experiments</Name>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/displayExperiment.action?spacecraftId=2011-040A</URL>
+        <Description>NSSDC Master Catalog list of Juno experiments with their Principal Investigators.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>The Juno Mission</Name>
+        <URL>https://doi.org/10.1007/s11214-017-0429-6</URL>
+        <Description>Juno mission overview paper by the PI and science team (Space Science Reviews, 2017).</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Editorial: Topical Collection of the Juno Mission</Name>
+        <URL>https://doi.org/10.1007/s11214-017-0430-0</URL>
+        <Description>Editorial introducing the Space Science Reviews topical collection of Juno science objectives, instruments and implementation.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Magnetospheric Science Objectives of the Juno Mission</Name>
+        <URL>https://doi.org/10.1007/s11214-014-0036-8</URL>
+        <Description>Paper setting out Juno's magnetospheric science goals and how the particles-and-fields instruments address them.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>The Juno Mission (book)</Name>
+        <URL>https://doi.org/10.1007/978-94-024-1560-5</URL>
+        <Description>Springer reprint volume of the Juno topical collection, with one chapter per instrument investigation.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>PDS PPI Juno archive</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/mission/Juno</URL>
+        <Description>Planetary Data System Planetary Plasma Interactions node page for Juno data.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>European involvement in Juno</Name>
+        <URL>https://www.europlanet.org/?p=927</URL>
+        <Description>Europlanet summary of European contributions to Juno instruments and of European Co-Investigators.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
-   <Version>2.7.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Frances.Bagenal</ResourceID>
       <NamingAuthority>SMWG</NamingAuthority>
       <ResourceType>Person</ResourceType>
-      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
+      <ReleaseDate>2026-11-09T00:00:44Z</ReleaseDate>
       <PersonName>Frances Bagenal</PersonName>
-      <OrganizationName>Astrophysical and Planetary Sciences and Laboratory for Atmospheric and Space Physics, University of Colorado Boulder</OrganizationName>
+      <OrganizationName>Laboratory for Atmospheric and Space Physics University of Colorado Boulder Boulder CO USA</OrganizationName>
       <Address>Astrophysical and Planetary Sciences and Laboratory for Atmospheric and Space Physics, University of Colorado, Boulder, Colorado 80309-0391</Address>
       <Email>bagenal@colorado.edu</Email>
       <PhoneNumber>+1 303 492 2598</PhoneNumber>
       <FaxNumber>+1 303 492 6946</FaxNumber>
+      <ORCIdentifier>0000-0002-3963-1614</ORCIdentifier>
+      <Note>
+          Previously recorded in this record as 'Astrophysical and Planetary Sciences and Laboratory for Atmospheric and Space Physics, University of Colorado Boulder'. The address, phone number, fax number and email address in this record relate to that previous organization.
+
+          The organization name on display is as printed on the paper (Wang et al. 2026, https://doi.org/10.1029/2026gl123313). This is the affiliation recorded at the time of publication.
+        </Note>
       <RORIdentifier>01fcjzv38</RORIdentifier>
    </Person>
 </Spase>

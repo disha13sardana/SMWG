@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
-   <Version>2.7.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Edward.J.Smith</ResourceID>
       <NamingAuthority>SMWG</NamingAuthority>
       <ResourceType>Person</ResourceType>
-      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
+      <ReleaseDate>2026-11-09T00:00:44Z</ReleaseDate>
       <PersonName>Edward J. Smith</PersonName>
-      <OrganizationName>Jet Propulsion Laboratory, California Institute of Technology</OrganizationName>
+      <OrganizationName>Jet Propulsion Laboratory</OrganizationName>
       <Email>edward.j.smith@jpl.nasa.gov</Email>
       <PhoneNumber>+1 818 354 2248</PhoneNumber>
+      <Note>
+          Previously recorded in this record as 'Jet Propulsion Laboratory, California Institute of Technology'. The phone number and email address in this record relate to that previous organization.
+
+          The organization name on display is from the data provider's own documentation (https://www.missionjuno.swri.edu/the-team/). This is the person's current or most recent affiliation.
+        </Note>
       <RORIdentifier>027k65916</RORIdentifier>
    </Person>
 </Spase>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
    <Version>2.7.1</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Scott.J.Bolton</ResourceID>
       <NamingAuthority>SMWG</NamingAuthority>
       <ResourceType>Person</ResourceType>
-      <ReleaseDate>2026-05-26T15:21:56Z</ReleaseDate>
+      <ReleaseDate>2026-11-09T00:00:44Z</ReleaseDate>
       <PersonName>Scott J. Bolton</PersonName>
       <OrganizationName>Southwest Research Institute</OrganizationName>
+      <ORCIdentifier>0000-0002-9115-0789</ORCIdentifier>
+      <Note>Affiliation as printed on the paper (Guillot et al. 2020, https://doi.org/10.1002/essoar.10502179.1). This is the affiliation recorded at the time of publication.</Note>
+      <RORIdentifier>03tghng59</RORIdentifier>
    </Person>
 </Spase>

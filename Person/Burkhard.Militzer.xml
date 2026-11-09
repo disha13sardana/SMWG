@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Burkhard.Militzer</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-11-09T00:00:44Z</ReleaseDate>
+    <PersonName>Burkhard Militzer</PersonName>
+    <OrganizationName>University of California, Berkeley</OrganizationName>
+    <ORCIdentifier>0000-0002-7092-5629</ORCIdentifier>
+    <Note>Affiliation from the data provider's own documentation (https://www.missionjuno.swri.edu/the-team/). This is the person's current or most recent affiliation.</Note>
+    <RORIdentifier>01an7q238</RORIdentifier>
+  </Person>
+</Spase>
