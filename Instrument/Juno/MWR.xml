@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Juno/MWR</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Microwave Radiometer</ResourceName>
+      <AlternateName>MWR</AlternateName>
+      <ReleaseDate>2026-11-09T07:44:41Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-11-09T07:44:41Z</ReleaseDate>
+          <Note>Skeleton Instrument record created for an instrument missing from SPASE, identified by the author-finder run on spase://SMWG/Observatory/Juno. InstrumentType (Unspecified), InvestigationName and Description are not yet filled; Contact is the UNKNOWN placeholder until authors are written. Registration plan: https://github.com/disha13sardana/spase-metadata-agents/blob/a41fd9f/spase_records/Juno/instrument_registrations.json. DS</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description></Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>Unspecified</InstrumentType>
+    <InvestigationName></InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Juno</ObservatoryID>
+  </Instrument>
+</Spase>
