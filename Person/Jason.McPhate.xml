@@ -5,7 +5,14 @@
       <ResourceID>spase://SMWG/Person/Jason.McPhate</ResourceID>
       <NamingAuthority>SMWG</NamingAuthority>
       <ResourceType>Person</ResourceType>
+      <ReleaseDate>2026-11-12T00:23:55Z</ReleaseDate>
       <PersonName>Jason McPhate</PersonName>
-      <OrganizationName>University of California</OrganizationName>
+      <OrganizationName>Space Sciences Laboratory, University of California Berkeley</OrganizationName>
+      <ORCIdentifier>0000-0001-7504-1999</ORCIdentifier>
+      <Note>
+          Previously recorded in this record as 'University of California'.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0001-7504-1999). This affiliation was held while the mission was operating.
+        </Note>
    </Person>
 </Spase>
