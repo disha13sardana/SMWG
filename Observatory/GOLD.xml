@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/GOLD</ResourceID>
@@ -7,7 +7,7 @@
       <ResourceName>GOLD</ResourceName>
       <AlternateName>SES-14</AlternateName>
       <AlternateName>43175</AlternateName>
-      <ReleaseDate>2026-07-20T16:22:42Z</ReleaseDate>
+      <ReleaseDate>2026-11-12T00:20:04Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2020-09-14T16:47:17Z</ReleaseDate>
@@ -16,6 +16,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-07-20T16:22:42Z</ReleaseDate>
           <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-11-12T00:20:04Z</ReleaseDate>
+          <Note>Added mission Contacts with Author and qualifying roles derived from mission literature and instrument records; corrected schemaLocation to match the declared SPASE Version. Candidate and enrichment files: https://github.com/disha13sardana/spase-metadata-agents/tree/249cda9/spase_records/GOLD. DS</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>Global-scale Observations of the Limb and Disk, or GOLD, is a NASA mission launched 
@@ -35,6 +39,219 @@
       <Contact>
         <PersonID>spase://SMWG/Person/Richard.Eastes</PersonID>
         <Role>PrincipalInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * PrincipalInvestigator: Principal Investigator of the GOLD mission, named on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/), in NASA's 2018 launch release (https://www.nasa.gov/science-research/heliophysics/nasa-mission-launched-will-revolutionize-our-understanding-of-space-weather/) and in the GOLD Observatory record Contacts (https://spase-metadata.org/SMWG/Observatory/GOLD.html)
+          * Author: First author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Wenbin.Wang</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>Author</Role>
+        <Note>
+          * ProjectScientist: Named Project Scientist of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+          * Author: Project Scientist of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/William.E.McClintock</PersonID>
+        <Role>DeputyPI</Role>
+        <Role>Author</Role>
+        <Note>
+          * DeputyPI: Deputy Principal Investigator of the GOLD mission, named on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/) and in the 2013 LASP selection press release (https://lasp.colorado.edu/2013/04/12/press-release-lasp-gold/)
+          * Author: Second author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2) and first author of the GOLD instrument design paper (McClintock et al. 2020, https://doi.org/10.1029/2020JA027797)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/David.N.Anderson</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+          * Author: Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/), and co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Laila.Andersson</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+          * Author: Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/), and co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mihail.V.Codrescu</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+          * Author: Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/), and co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.E.Daniell</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+          * Author: Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/), and co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Scott.England</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+          * Author: Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/), and co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/J.Scott.Evans</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+          * Author: Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/), and co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Katelynn.Greer</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+          * Author: Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.E.Harvey</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+          * Author: Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/), and co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jerry.D.Lumpe</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+          * Author: Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/), and co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Carlos.R.Martinis</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+          * Author: Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/), and co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2), where he is listed among the collaborators
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Arthur.D.Richmond</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+          * Author: Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/), and co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/David.W.Rusch</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+          * Author: Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/), and co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Oswald.H.W.Siegmund</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+          * Author: Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/), and co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stanley.C.Solomon</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+          * Author: Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/), and co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Thomas.N.Woods</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>Author</Role>
+        <Note>
+          * CoInvestigator: Listed as a Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)
+          * Author: Co-Investigator of the GOLD mission on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/), and co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2)
+        </Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Alan.G.Burns</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Sarah.Jones</PersonID>
+        <Role>Author</Role>
+        <Note>Mission Scientist for GOLD at NASA Goddard Space Flight Center, named in the Leadership section of the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Andrey.Krywonos</PersonID>
+        <Role>Author</Role>
+        <Note>Co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2), listed with the Co-Investigators, and named GOLD Project Coordinator on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Arve.Aksnes</PersonID>
+        <Role>Author</Role>
+        <Note>Co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2), listed as a GOLD collaborator on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Scott.A.Budzien</PersonID>
+        <Role>Author</Role>
+        <Note>Co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2), listed as a GOLD collaborator on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Kenneth.F.Dymond</PersonID>
+        <Role>Author</Role>
+        <Note>Co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2), listed as a GOLD collaborator on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Frank.G.Eparvier</PersonID>
+        <Role>Author</Role>
+        <Note>Co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2), listed as a GOLD collaborator on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jens.Oberheide</PersonID>
+        <Role>Author</Role>
+        <Note>Co-author of the GOLD mission overview paper (Eastes et al. 2017, https://doi.org/10.1007/s11214-017-0392-2), listed as a GOLD collaborator on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Alan.C.Hoskins</PersonID>
+        <Role>Author</Role>
+        <Note>Third author of the GOLD instrument design paper (McClintock et al. 2020, https://doi.org/10.1029/2020JA027797)</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Janet.U.Kozyra</PersonID>
+        <Role>ProgramScientist</Role>
+        <Note>Current Program Scientist for GOLD at NASA Headquarters, named on the GOLD science team page (https://gold.cs.ucf.edu/science-mission/science-team/); NASA's 2018 launch release named Elsayed Talaat in this role at launch</Note>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Elsayed.Talaat</PersonID>
+        <Role>ProgramScientist</Role>
+        <Note>Program Scientist for GOLD at NASA Headquarters at the January 2018 launch, named in NASA's launch release (https://www.nasa.gov/science-research/heliophysics/nasa-mission-launched-will-revolutionize-our-understanding-of-space-weather/); the current GOLD science team page names Janet Kozyra in this role</Note>
       </Contact>
       <InformationURL>
         <Name>NASA Integrates Ultraviolet Space Spectrograph with SES 14</Name>
@@ -50,6 +267,26 @@
         <Name>HelioData</Name>
         <URL>https://helio.data.nasa.gov/mission/GOLD</URL>
         <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>The Global-Scale Observations of the Limb and Disk (GOLD) Mission</Name>
+        <URL>https://doi.org/10.1007/s11214-017-0392-2</URL>
+        <Description>Mission overview paper (Eastes et al. 2017, Space Science Reviews) describing GOLD's science objectives, instrument and observing plan.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Mission web page</Name>
+        <URL>https://gold.cs.ucf.edu/</URL>
+        <Description>GOLD mission home page at the University of Central Florida, with news, publications, data access and documentation.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>GOLD science team</Name>
+        <URL>https://gold.cs.ucf.edu/science-mission/science-team/</URL>
+        <Description>GOLD mission leadership, Co-Investigators, collaborators and project leads.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NASA GOLD mission page</Name>
+        <URL>https://science.nasa.gov/mission/gold/</URL>
+        <Description>NASA Science mission summary page for GOLD, with links to mission news.</Description>
       </InformationURL>
       <PriorID>spase://SMWG/Observatory/SES-14</PriorID>
     </ResourceHeader>

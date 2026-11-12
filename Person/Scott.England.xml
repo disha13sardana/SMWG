@@ -5,8 +5,15 @@
     <ResourceID>spase://SMWG/Person/Scott.England</ResourceID>
     <NamingAuthority>SMWG</NamingAuthority>
     <ResourceType>Person</ResourceType>
-    <ReleaseDate>2022-02-20T12:34:56.789Z</ReleaseDate>
+    <ReleaseDate>2026-11-12T00:20:04Z</ReleaseDate>
     <PersonName>Scott England</PersonName>
-    <OrganizationName>Aerospace and Ocean Engineering, Durham Hall, s1145 Perry St. Virginia Tech, Blacksburg, VA 24061</OrganizationName>
+    <OrganizationName>Aerospace and Ocean Engineering, Virginia Tech</OrganizationName>
+    <ORCIdentifier>0000-0001-5336-0040</ORCIdentifier>
+    <Note>
+          Previously recorded in this record as 'Aerospace and Ocean Engineering, Durham Hall, s1145 Perry St. Virginia Tech, Blacksburg, VA 24061'.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0001-5336-0040). This affiliation was held while the mission was operating.
+        </Note>
+    <RORIdentifier>02smfhw86</RORIdentifier>
   </Person>
 </Spase>

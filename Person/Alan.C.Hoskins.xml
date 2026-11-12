@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Alan.C.Hoskins</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-11-12T00:20:04Z</ReleaseDate>
+    <PersonName>Alan C. Hoskins</PersonName>
+    <OrganizationName>Laboratory for Atmospheric and Space Physics, University of Colorado</OrganizationName>
+    <ORCIdentifier>0009-0001-0499-0473</ORCIdentifier>
+    <Note>Affiliation from the person's ORCID employment history (https://orcid.org/0009-0001-0499-0473). This affiliation was held while the mission was operating.</Note>
+    <RORIdentifier>01fcjzv38</RORIdentifier>
+  </Person>
+</Spase>

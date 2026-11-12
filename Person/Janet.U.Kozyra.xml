@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Janet.U.Kozyra</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-11-12T00:20:04Z</ReleaseDate>
     <PersonName>Dr. Janet U. Kozyra</PersonName>
-    <OrganizationName>University of Michigan</OrganizationName>
+    <OrganizationName>NASA Headquarters</OrganizationName>
+    <Note>
+          Previously recorded in this record as 'University of Michigan'.
+
+          The organization name on display is from the data provider's own documentation (https://web.archive.org/web/20260811204626/https://gold.cs.ucf.edu/science-mission/science-team/). This is the person's current or most recent affiliation.
+        </Note>
+    <RORIdentifier>027ka1x80</RORIdentifier>
   </Person>
 </Spase>

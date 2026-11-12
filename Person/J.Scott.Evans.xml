@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
-  <Version>2.7.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/J.Scott.Evans</ResourceID>
 	<NamingAuthority>SMWG</NamingAuthority>
 	<ResourceType>Person</ResourceType>
+	<ReleaseDate>2026-11-12T00:20:04Z</ReleaseDate>
     <PersonName>J. Scott Evans</PersonName>
-    <OrganizationName>Computational Physics, Inc. (CPI)</OrganizationName>
+    <OrganizationName>Computational Physics, Inc. Springfield VA USA</OrganizationName>
 	<Email>evans@cpi.com</Email>
+	<ORCIdentifier>0000-0003-2025-5695</ORCIdentifier>
+	<Note>
+          Previously recorded in this record as 'Computational Physics, Inc. (CPI)'. The email address in this record relates to that previous organization.
+
+          The organization name on display is as printed on the paper (Karan et al. 2026, https://doi.org/10.1029/2026gl122707). This is the affiliation recorded at the time of publication.
+        </Note>
   </Person>
 </Spase>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Oswald.H.W.Siegmund</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-11-12T00:20:04Z</ReleaseDate>
+    <PersonName>Oswald H. W. Siegmund</PersonName>
+    <OrganizationName>Space Sciences Laboratory, University of California Berkeley</OrganizationName>
+    <ORCIdentifier>0000-0001-9390-0056</ORCIdentifier>
+    <Note>Affiliation from the person's ORCID employment history (https://orcid.org/0000-0001-9390-0056). This affiliation was held while the mission was operating.</Note>
+  </Person>
+</Spase>

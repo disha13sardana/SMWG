@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
-  <Version>2.7.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Andrey.Krywonos</ResourceID>
 	<NamingAuthority>SMWG</NamingAuthority>
 	<ResourceType>Person</ResourceType>
+	<ReleaseDate>2026-11-12T00:20:04Z</ReleaseDate>
     <PersonName>Andrey Krywonos</PersonName>
-    <OrganizationName>Florida Space Institute, University of Central Florida, Florida, USA</OrganizationName>
+    <OrganizationName>Florida Space Institute, University of Central Florida</OrganizationName>
 	<ORCIdentifier>Andrey Krywonos</ORCIdentifier>
+	<Note>
+          Previously recorded in this record as 'Florida Space Institute, University of Central Florida, Florida, USA'.
+
+          The organization name on display is from the person's ORCID employment history (https://orcid.org/0000-0002-1604-8573). This affiliation was held while the mission was operating.
+        </Note>
+	<RORIdentifier>036nfer12</RORIdentifier>
   </Person>
 </Spase>

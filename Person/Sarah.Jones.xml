@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Sarah.Jones</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-11-12T00:20:04Z</ReleaseDate>
+    <PersonName>Sarah Jones</PersonName>
+    <OrganizationName>NASA Goddard Space Flight Center</OrganizationName>
+    <ORCIdentifier>0000-0002-3816-4954</ORCIdentifier>
+    <Note>Affiliation from the data provider's own documentation (https://web.archive.org/web/20260811204626/https://gold.cs.ucf.edu/science-mission/science-team/). This is the person's current or most recent affiliation.</Note>
+    <RORIdentifier>0171mag52</RORIdentifier>
+  </Person>
+</Spase>

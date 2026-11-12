@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Elsayed.Talaat</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-11-12T00:20:04Z</ReleaseDate>
     <PersonName>Elsayed Talaat</PersonName>
-    <OrganizationName>Applied Physics Laboratory</OrganizationName>
+    <OrganizationName>NASA Headquarters</OrganizationName>
     <Email>elsayed.talaat@jhuapl.edu</Email>
+    <Note>
+          Previously recorded in this record as 'Applied Physics Laboratory'. The email address in this record relates to that previous organization.
+
+          The organization name on display is from the data provider's own documentation (https://www.nasa.gov/science-research/heliophysics/nasa-mission-launched-will-revolutionize-our-understanding-of-space-weather/).
+        </Note>
+    <RORIdentifier>027ka1x80</RORIdentifier>
   </Person>
 </Spase>

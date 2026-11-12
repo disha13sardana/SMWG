@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Carlos.R.Martinis</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-11-12T00:20:04Z</ReleaseDate>
+    <PersonName>Carlos R. Martinis</PersonName>
+    <OrganizationName>Astronomy Department Center for Space Physics Boston University Boston MA USA</OrganizationName>
+    <ORCIdentifier>0000-0002-1085-7871</ORCIdentifier>
+    <Note>Affiliation as printed on the paper (Karan et al. 2024, https://doi.org/10.1029/2024gl110632). This is the affiliation recorded at the time of publication.</Note>
+    <RORIdentifier>05qwgg493</RORIdentifier>
+  </Person>
+</Spase>
